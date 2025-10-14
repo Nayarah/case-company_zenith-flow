@@ -36,10 +36,6 @@ O projeto segue uma arquitetura modular baseada em departamentos:
 ```
 ZenithFlow/
 ├── 01_Financeiro_Inteligente/   # Contém o código, dados e relatórios do Módulo Financeiro.
-│   ├── README.md                # Detalhes técnicos e guia de execução deste módulo.
-│   ├── Despesas_Filiais.zip     # Arquivo compactado com dados de despesas (RAW Data).
-│   ├── Receitas_Filiais.zip     # Arquivo compactado com dados de receitas (RAW Data).
-│   └── Relatorios/              # Contém o arquivo final de dashboard (Ex: .xlsx ou .pbix).
 ├── 02_Marketing_Digital_GA4/    # Próximo módulo a ser desenvolvido (Futura expansão).
 ├── 03_Automatizacao_Vendas/     # Módulo futuro.
 ├── README.md                    # Você está aqui (Visão geral do ecossistema).
