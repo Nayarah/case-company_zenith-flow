@@ -10,10 +10,17 @@
 
 
 ## 💡 Objetivo do Módulo
-Este módulo é a primeira prova de conceito do ecossistema **ZenithFlow**.
-Ele demonstra como criar um pipeline end-to-end de dados financeiros, com extração automática do GitHub, transformação com Power Query (Linguagem M), e automação de relatórios via VBA e Power Automate.
+Este módulo demonstra a prova de conceito do ecossistema ZenithFlow, criando um pipeline end-to-end de dados financeiros com:
 
-O foco é automatizar o **fechamento mensal de múltiplas filiais** — consolidando receitas e despesas, gerando saldos e acumulados automaticamente, e entregando relatórios prontos para envio.
+- Extração automática do GitHub
+
+- Transformação com Power Query (Linguagem M)
+
+- Automação de relatórios via VBA e Power Automate
+
+O objetivo é automatizar o fechamento mensal de múltiplas filiais, consolidando receitas e despesas e gerando saldos e acumulados.
+
+<br>
 
 ## ⚙️ Tecnologias e Ferramentas
 | Categoria | Ferramenta | Uso no Projeto |
@@ -31,6 +38,7 @@ O foco é automatizar o **fechamento mensal de múltiplas filiais** — consolid
 Os arquivos de entrada são fictícios e simulam dados reais, frequentemente **despadronizados** e provenientes de diversas fontes, exigindo o tratamento robusto do Power Query.
 * **`Despesas_Filiais`:** Contém registros de custos e despesas operacionais.
 * **`Receitas_Filiais`:** Contém registros de vendas e receitas por canal/filial.
+* **`Links_Financeiro.xlsx`:** lista de URLs para download automátic
 
 ### Saída (Output)
 * **`Relatorios/Dashboard_Financeiro.xlsx`:** Contém o Modelo de Dados (Tabela Mestra Consolidada) e o Dashboard de visualização, atualizado pela macro.
@@ -42,19 +50,13 @@ Os arquivos de entrada são fictícios e simulam dados reais, frequentemente **d
 │
 ├── Dados/
 │   ├── Despesas_Filiais/
-│   │   ├── MG_despesas.xlsx
-│   │   ├── SP_despesas.xlsx
-│   │   └── RJ_despesas.xlsx
 │   ├── Receitas_Filiais/
-│   │   ├── filial_MG.xlsx
-│   │   ├── filial_SP.xlsx
-│   │   └── filial_RJ.xlsx
 │   └── Links_Financeiro.xlsx
 │
-│── Relatorios/
-│    ├── 01_Financeiro_Modelo_Dados.xlsx
-│    └── Dashboard_Financeiro.pdf
-├── README.md 
+├── Relatorios/
+│   ├── 01_Financeiro_Modelo_Dados.xlsx
+│   └── Dashboard_Financeiro.pdf
+└── README.md
 
 ```
 
@@ -64,144 +66,75 @@ Os arquivos de entrada são fictícios e simulam dados reais, frequentemente **d
 
 1.  **Extração (E):** Leitura automática dos links públicos hospedados no GitHub, com tratamento de metadados para evitar bloqueio de firewall (PrivacyLevels).
 
-```
-LinkDoCSV = "https://raw.githubusercontent.com/Nayarah/case-company_zenith-flow/feat/financeiro-inteligente/01_Financeiro_Inteligente/Relatorios/links_fonanceiro.csv",
-CSVUrlSegura = Value.ReplaceMetadata(LinkDoCSV, [IsDataSource = true, PrivacySetting = "Public"]),
-ConteudoBinario = Web.Contents(CSVUrlSegura),
-ConteudoExcel = Excel.Workbook(ConteudoBinario, null, true)
-
-```
-
-2.  **Transformação (T):**
- Criação do pipeline consolidado com extração dinâmica da Filial e Tipo de Lançamento a partir do nome e caminho dos arquivos.
-
-```
-// Extração da Filial e Tipo a partir do nome e caminho
-AddTipo = Table.AddColumn(DataExpanded,"Tipo", 
-    each if Text.Contains([Link], "/Receitas_Filiais/") then "Receita" 
-         else if Text.Contains([Link], "/Despesas_Filiais/") then "Despesa" 
-         else "Outros", 
-    type text),
-
-AddFilial = Table.AddColumn(AddTipo,"Filial",
-    each let
-        NomeArquivoReal = Text.AfterDelimiter([Link], "/", {0, RelativePosition.FromEnd}),
-        Filial = if [Tipo] = "Receita" then
-                    Text.Middle(
-                        NomeArquivoReal, 
-                        Text.PositionOf(NomeArquivoReal, "Filial_") + Text.Length("Filial_"), 
-                        Text.PositionOf(NomeArquivoReal, ".xlsx") - (Text.PositionOf(NomeArquivoReal, "Filial_") + Text.Length("Filial_"))
-                    )
-                 else Text.BeforeDelimiter(NomeArquivoReal, "_")
-    in Filial,
-    type text)
-
-```
-3. **Enriquecimento**Criação de colunas derivadas para granularidade temporal e indicadores financeiros.
-```
-AddMes = Table.AddColumn(FinalColumns, "Mes", each Date.MonthName([Data]), type text),
-AddAno = Table.AddColumn(AddMes, "Ano", each Date.Year([Data]), type number),
-AddSaldo = Table.AddColumn(AddAno, "Saldo", each if [Tipo] = "Receita" then [Valor] else -[Valor], type number),
-AddSaldoAcumulado = Table.AddColumn(AddSaldo, "SaldoAcumulado_Filial",
-    each let
-        FilialAtual = [Filial],
-        DataAtual = [Data],
-        RegistrosFilial = Table.SelectRows(AddSaldo, each [Filial] = FilialAtual and [Data] <= DataAtual),
-        Soma = List.Sum(RegistrosFilial[Saldo])
-    in Soma, type number),
-AddSaldoAcumuladoOrg = Table.AddColumn(AddSaldoAcumulado, "SaldoAcumulado_Org",
-    each let
-        DataAtual = [Data],
-        RegistrosTotais = Table.SelectRows(AddSaldoAcumulado, each [Data] <= DataAtual),
-        SomaTotal = List.Sum(RegistrosTotais[Saldo])
-    in SomaTotal, type number)
-
-```
-
-4.  **Carga (L): Modelagem Final**
-
-📊 Financeiro Base
-
-Contém todos os registros detalhados (linha a linha) de receitas e despesas com:
-
-- Filial
-
-- Categoria
-
-- Mês / Ano
-
-- Saldo
-
-- Saldos acumulados por filial e totais da organização
-
-📈 Financeiro Resumo
-
-Resumo agregado por mês, categoria e tipo de lançamento, ideal para dashboards e análises gerenciais.
-
-```
-FinanceiroResumo = 
-    Table.Group(
-        FinanceiroBase,
-        {"Ano", "Mes", "Tipo", "Filial", "Categoria"},
-        {
-            {"Total_Receita", each List.Sum(List.Select([Saldo], each _ > 0)), type number},
-            {"Total_Despesa", each List.Sum(List.Select([Saldo], each _ < 0)), type number},
-            {"Saldo_Liquido", each List.Sum([Saldo]), type number}
-        }
-    )
-
-```
-🧠 Fluxograma do Pipeline
+```m
+LinkDoCSV = "https://raw.githubusercontent.com/.../links_financeiro.csv"
+CSVUrlSegura = Value.ReplaceMetadata(LinkDoCSV, [IsDataSource=true, PrivacySetting="Public"])
+ConteudoCsvLinks = Csv.Document(Web.Contents(CSVUrlSegura), [Delimiter=",", Encoding=65001])
 
 
 ```
-GitHub (Raw XLSX)
-       │
-       ▼
-Power Query (Excel)
-  ├─ Extrair links (CSV)
-  ├─ Baixar planilhas
-  ├─ Tratar e padronizar colunas
-  ├─ Identificar Tipo e Filial
-  ├─ Criar colunas de Mês e Ano
-  ├─ Calcular Saldo e Acumulados
-  ├─ Gerar tabela Financeiro_Base
-  └─ Agregar em Financeiro_Resumo
-  ```
+>🔹 Todo o código M completo está disponível em CODE_SNIPPETS.md
+ ou na seção colapsável abaixo.
 
-  💻 Automação VBA — Atualização e Distribuição
+<details> <summary>Código completo do Pipeline ETL (Power Query)</summary>
 
-O módulo VBA Módulo_Automacao.bas executa o processo completo de atualização:
+```m
+
+// Funções completas de download, expansão, transformação e agregação
+AddTipo = Table.AddColumn(ValidLinks, "Tipo", ... )
+ReceitasExp = Table.ExpandTableColumn(...)
+DespesasExp = Table.ExpandTableColumn(...)
+DataExpanded = Table.Combine({ReceitasExp, DespesasExp})
+AddFilial = Table.AddColumn(DataExpanded, "Filial", ...)
+AddMes = Table.AddColumn(FinalColumns, "Mes", each Date.MonthName([Data]), type text)
+AddAno = Table.AddColumn(AddMes, "Ano", each Date.Year([Data]), type number)
+AddSaldo = Table.AddColumn(AddAno, "Saldo", each if [Tipo]="Receita" then [Valor] else -[Valor], type number)
+AddSaldoAcumulado = Table.AddColumn(AddSaldo, "SaldoAcumulado_Filial", ...)
+AddSaldoAcumuladoOrg = Table.AddColumn(AddSaldoAcumulado, "SaldoAcumulado_Org", ...)
+FinanceiroResumo = Table.Group(FinanceiroBase, {"Ano","Mes","Tipo","Filial","Categoria"}, ...)
+
+```
+</details>
+
+<br>
+
+2. **Transformação (T):**
+
+    * Extrai Tipo (Receita ou Despesa) e Filial
+
+    * Padroniza colunas e formatos
+
+    * Expande linhas de cada arquivo dinamicamente
+
+3. **Enriquecimento:**
+
+    * Cria colunas de Mês e Ano
+
+    * Calcula Saldo, Saldos Acumulados por Filial e Organização
+
+4. **Carga (L):**
+
+    * Financeiro Base: linha a linha detalhada
+
+    * Financeiro Resumo: agregação por mês, categoria e tipo de lançamento
+
+
+
+##  💻 Automação VBA — Atualização e Distribuição
+
+Macro Run_Update() atualiza todas as consultas, gera PDF do Dashboard e prepara e-mail:
 ```
 Sub Run_Update()
-    Application.StatusBar = "Atualizando consultas..."
     ThisWorkbook.RefreshAll
-    
-    Application.StatusBar = "Gerando relatório PDF..."
-    Dim PathPDF As String
-    PathPDF = ThisWorkbook.Path & "\Relatorio_Financeiro.pdf"
-    Sheets("Dashboard").ExportAsFixedFormat Type:=xlTypePDF, Filename:=PathPDF
-    
-    Application.StatusBar = "Preparando e-mail..."
-    Dim OutlookApp As Object, Mail As Object
-    Set OutlookApp = CreateObject("Outlook.Application")
-    Set Mail = OutlookApp.CreateItem(0)
-    Mail.To = "diretoria@zenithflow.com"
-    Mail.Subject = "Fechamento Financeiro Mensal"
-    Mail.Body = "Segue o relatório financeiro consolidado."
-    Mail.Attachments.Add PathPDF
-    Mail.Display
-    
-    Application.StatusBar = False
+    Sheets("Dashboard").ExportAsFixedFormat Type:=xlTypePDF, Filename:=ThisWorkbook.Path & "\Relatorio_Financeiro.pdf"
+    ' Abre e-mail com PDF anexado
 End Sub
-
-
 
 ```
 
----
 
-## 💻 Guia de Execução (*Quick Start*)
+
+## 🚀 Guia de Execução (*Quick Start*)
 
 Este módulo foi projetado para simular um processo real de fechamento financeiro automatizado, com um clique (ou execução agendada via Power Automate / Task Scheduler).
 
@@ -212,40 +145,10 @@ Este módulo foi projetado para simular um processo real de fechamento financeir
   - Conteúdo externo (consultas da Web)
   - Execução de Macros (VBA)
 
-### Instruções
-1.  **Clonar o Repositório:** Baixe ou clone o projeto completo do GitHub:
-`https://github.com/Nayarah/case-company_zenith-flow`
-2.  **Abrir o Arquivo:** Abra o arquivo `01_Financeiro_Inteligente/Relatorios/Dashboard_Financeiro.xlsx`.
-3.  **Habilitar o Conteúdo e Macros:** 
-    * Ao abrir o arquivo, clique em “Habilitar Edição” e “Habilitar Conteúdo”.
-    * Certifique-se de que as macros estão permitidas em:
-Arquivo > Opções > Central de Confiabilidade > Configurações de Macro
-4. **Atualizar as Consultas (ETL)**
-    * Acesse a guia “Dados” > “Atualizar Tudo”.
-    * O Power Query executará automaticamente a função fnDownloadExcel e construirá:
-      * a tabela Financeiro_Base (dados detalhados);
-      * e a tabela Financeiro_Resumo (dados consolidados).
+### Instruções:
 
-5. **Executar a Automação VBA**
-    * Vá até a guia Desenvolvedor.
-    * Clique no botão [Run_Update], ou execute manualmente a macro:
-Módulo_Automacao.Run_Update
 
-6. **Fluxo de Execução da Macro:**
-    1. Atualiza todas as consultas Power Query (ETL).
-    2. Atualiza o dashboard e as tabelas dinâmicas.
-    3. Gera automaticamente o PDF do relatório consolidado.
-    4. Abre o e-mail pré-preenchido no Outlook com o PDF anexado.
 
-🧠 Dica Profissional
-
-* Se quiser agendar a execução diária ou semanal:
-  * Use o Power Automate Desktop (fluxo “Executar macro no Excel”).
-    * Ou o Agendador de Tarefas do Windows com o comando:
-    ```
-    excel.exe "C:\Caminho\01_Financeiro_Modelo_Dados.xlsx" /mRun_Update
-
-    ```
 
 ---
 

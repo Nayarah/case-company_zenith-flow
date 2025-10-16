@@ -1,16 +1,873 @@
-﻿Data;Tipo de Despesa;Valor;Descrição
-2025-09-07 00:00:00;Logística;8681;Software
-2025-09-12 00:00:00;Administrativo;3527;Serviços
-2025-09-10 00:00:00;Logística;11732;Salários
-2025-09-28 00:00:00;Logística;6947;Campanha de mídia
-2025-09-24 00:00:00;Operacional;9937;Frete
-2025-09-01 00:00:00;Marketing;5496;Campanha de mídia
-2025-09-30 00:00:00;Marketing;3642;Software
-2025-09-20 00:00:00;Administrativo;10496;Software
-2025-09-13 00:00:00;Operacional;5509;Frete
-2025-09-02 00:00:00;Operacional;6690;Software
-2025-09-10 00:00:00;Operacional;6197;Salários
-2025-09-14 00:00:00;Logística;10177;Software
-2025-09-27 00:00:00;Marketing;7526;Campanha de mídia
-2025-09-13 00:00:00;Marketing;11344;Salários
-2025-09-28 00:00:00;Administrativo;4871;Energia
+Data,Tipo de Despesa,Valor,Descrição
+16/08/2025  20:06:28,Embalagem,147.62,Embalagem - pagamento referente a Aug 2025
+14/09/2024  10:45:30,Sistemas,1609.92,Sistemas - pagamento referente a Sep 2024
+02/11/2024  20:00:44,Internet,1429.72,Internet - pagamento referente a Nov 2024
+30/07/2025  18:22:22,Água,3855.46,Água - pagamento referente a Jul 2025
+20/11/2024  04:19:20,Eventos,5.0,Eventos - pagamento referente a Nov 2024
+06/09/2024  23:55:59,Vale Transporte,2960.97,Vale Transporte - pagamento referente a Sep 2024
+21/08/2025  10:26:40,Eventos,263.98,Eventos - pagamento referente a Aug 2025
+17/04/2024  23:56:08,Energia,2692.6,Energia - pagamento referente a Apr 2024
+23/05/2025  09:43:22,Manutenção de equipamento,517.52,Manutenção de equipamento - pagamento referente a May 2025
+28/08/2025  00:08:46,Alimentação,2118.93,Alimentação - pagamento referente a Aug 2025
+11/09/2024  09:41:03,Energia,2231.82,Energia - pagamento referente a Sep 2024
+13/10/2024  16:08:46,Alimentação,3084.51,Alimentação - pagamento referente a Oct 2024
+16/01/2025  18:10:23,Internet,3240.4,Internet - pagamento referente a Jan 2025
+19/06/2024  17:50:47,Folha de pagamento,2760.34,Folha de pagamento - pagamento referente a Jun 2024
+19/01/2024  19:02:39,Energia,50.0,Energia - pagamento referente a Jan 2024
+24/11/2024  12:20:23,Sistemas,1807.74,Sistemas - pagamento referente a Nov 2024
+14/06/2024  18:25:33,Energia,2398.4,Energia - pagamento referente a Jun 2024
+19/12/2024  03:51:55,Materiais de Escritório,545.67,Materiais de Escritório - pagamento referente a Dec 2024
+31/12/2024  17:32:41,Devoluções e ressarcimento,563.41,Devoluções e ressarcimento - pagamento referente a Dec 2024
+03/05/2024  21:13:41,Materiais de Limpeza,249.45,Materiais de Limpeza - pagamento referente a May 2024
+14/02/2024  18:38:41,Embalagem,72.65,Embalagem - pagamento referente a Feb 2024
+06/12/2024  10:45:18,Vale Transporte,1550.03,Vale Transporte - pagamento referente a Dec 2024
+30/12/2024  01:17:55,Materiais de Limpeza,455.45,Materiais de Limpeza - pagamento referente a Dec 2024
+11/09/2024  15:22:35,Água,2461.66,Água - pagamento referente a Sep 2024
+18/02/2024  04:12:26,Manutenção de equipamento,7.83,Manutenção de equipamento - pagamento referente a Feb 2024
+21/03/2025  07:43:13,Água,2021.51,Água - pagamento referente a Mar 2025
+19/01/2024  15:15:50,Devoluções e ressarcimento,452.92,Devoluções e ressarcimento - pagamento referente a Jan 2024
+09/01/2024  14:15:55,Energia,1616.66,Energia - pagamento referente a Jan 2024
+02/02/2025  00:09:37,Contabilidade,2597.0,Contabilidade - pagamento referente a Feb 2025
+13/02/2024  21:47:57,Internet,2914.26,Internet - pagamento referente a Feb 2024
+14/06/2025  08:53:23,Contabilidade,1225.32,Contabilidade - pagamento referente a Jun 2025
+29/09/2024  01:00:19,Manutenção predial,197.98,Manutenção predial - pagamento referente a Sep 2024
+19/10/2024  01:35:29,Manutenção de equipamento,419.74,Manutenção de equipamento - pagamento referente a Oct 2024
+04/08/2025  11:55:43,Eventos,432.42,Eventos - pagamento referente a Aug 2025
+21/07/2025  18:16:16,Materiais de Escritório,382.72,Materiais de Escritório - pagamento referente a Jul 2025
+03/07/2024  03:53:57,Devoluções e ressarcimento,675.59,Devoluções e ressarcimento - pagamento referente a Jul 2024
+14/09/2024  16:49:39,Devoluções e ressarcimento,203.86,Devoluções e ressarcimento - pagamento referente a Sep 2024
+05/02/2024  00:02:15,Devoluções e ressarcimento,158.43,Devoluções e ressarcimento - pagamento referente a Feb 2024
+18/07/2024  16:50:32,Materiais de Escritório,396.02,Materiais de Escritório - pagamento referente a Jul 2024
+22/06/2025  02:16:06,Segurança e Monitoramento,2143.92,Segurança e Monitoramento - pagamento referente a Jun 2025
+24/04/2025  16:38:33,Embalagem,5.0,Embalagem - pagamento referente a Apr 2025
+26/03/2025  05:04:19,Compras de equipamentos,186.92,Compras de equipamentos - pagamento referente a Mar 2025
+20/07/2025  20:33:18,Eventos,5.0,Eventos - pagamento referente a Jul 2025
+17/02/2024  15:50:57,Internet,878.52,Internet - pagamento referente a Feb 2024
+01/02/2025  10:38:14,Aluguel,2853.34,Aluguel - pagamento referente a Feb 2025
+26/03/2025  22:39:37,Compras de equipamentos,442.44,Compras de equipamentos - pagamento referente a Mar 2025
+04/08/2024  01:18:24,Eventos,312.13,Eventos - pagamento referente a Aug 2024
+22/04/2025  20:10:21,Expedição,492.92,Expedição - pagamento referente a Apr 2025
+17/02/2025  10:24:17,Internet,2405.82,Internet - pagamento referente a Feb 2025
+27/04/2024  18:37:42,Devoluções e ressarcimento,181.26,Devoluções e ressarcimento - pagamento referente a Apr 2024
+28/08/2025  15:29:55,Materiais de Escritório,537.39,Materiais de Escritório - pagamento referente a Aug 2025
+23/05/2025  09:13:48,Materiais de Escritório,459.68,Materiais de Escritório - pagamento referente a May 2025
+07/05/2025  08:48:50,Internet,2884.42,Internet - pagamento referente a May 2025
+06/03/2024  23:33:41,Água,2221.35,Água - pagamento referente a Mar 2024
+23/04/2025  15:51:26,Materiais de Limpeza,209.39,Materiais de Limpeza - pagamento referente a Apr 2025
+15/10/2024  04:32:26,Fretes,180.59,Fretes - pagamento referente a Oct 2024
+19/12/2024  23:49:49,Devoluções e ressarcimento,85.41,Devoluções e ressarcimento - pagamento referente a Dec 2024
+04/09/2024  19:47:37,Alimentação,2203.54,Alimentação - pagamento referente a Sep 2024
+01/08/2024  11:35:36,Expedição,579.89,Expedição - pagamento referente a Aug 2024
+02/03/2024  17:18:44,Contabilidade,2046.57,Contabilidade - pagamento referente a Mar 2024
+17/09/2024  06:35:20,Manutenção de equipamento,155.78,Manutenção de equipamento - pagamento referente a Sep 2024
+31/03/2024  09:06:37,Aluguel,2770.7,Aluguel - pagamento referente a Mar 2024
+21/06/2025  23:39:04,Manutenção predial,5.0,Manutenção predial - pagamento referente a Jun 2025
+02/01/2024  23:20:03,Folha de pagamento,1483.9,Folha de pagamento - pagamento referente a Jan 2024
+18/12/2024  16:07:36,Sistemas,2560.25,Sistemas - pagamento referente a Dec 2024
+03/05/2024  04:17:39,Materiais de Limpeza,497.92,Materiais de Limpeza - pagamento referente a May 2024
+03/04/2025  16:04:46,Sistemas,1559.76,Sistemas - pagamento referente a Apr 2025
+26/03/2025  13:07:26,Contabilidade,2358.17,Contabilidade - pagamento referente a Mar 2025
+05/07/2024  13:05:58,Alimentação,3404.27,Alimentação - pagamento referente a Jul 2024
+26/10/2024  16:20:44,Companhia de mídia,417.87,Companhia de mídia - pagamento referente a Oct 2024
+04/07/2025  06:32:25,Embalagem,123.75,Embalagem - pagamento referente a Jul 2025
+07/09/2024  06:52:34,Água,1875.46,Água - pagamento referente a Sep 2024
+08/06/2024  03:09:16,Segurança e Monitoramento,2697.86,Segurança e Monitoramento - pagamento referente a Jun 2024
+15/12/2024  03:49:51,Alimentação,1437.46,Alimentação - pagamento referente a Dec 2024
+26/01/2025  04:34:20,Serviços de terceiros,874.72,Serviços de terceiros - pagamento referente a Jan 2025
+09/04/2024  13:21:59,Compras de equipamentos,5.0,Compras de equipamentos - pagamento referente a Apr 2024
+01/06/2024  06:19:13,Contabilidade,1338.22,Contabilidade - pagamento referente a Jun 2024
+10/03/2024  21:37:23,Devoluções e ressarcimento,88.3,Devoluções e ressarcimento - pagamento referente a Mar 2024
+12/08/2024  16:57:18,Energia,2705.31,Energia - pagamento referente a Aug 2024
+21/05/2024  03:53:31,Eventos,452.59,Eventos - pagamento referente a May 2024
+17/03/2025  12:40:59,Sistemas,1226.42,Sistemas - pagamento referente a Mar 2025
+10/01/2025  20:45:32,Companhia de mídia,320.57,Companhia de mídia - pagamento referente a Jan 2025
+23/02/2025  19:50:22,Alimentação,3261.96,Alimentação - pagamento referente a Feb 2025
+02/05/2025  20:53:43,Manutenção predial,529.08,Manutenção predial - pagamento referente a May 2025
+02/08/2025  21:22:55,Embalagem,597.66,Embalagem - pagamento referente a Aug 2025
+01/03/2025  10:52:50,Vale Transporte,855.38,Vale Transporte - pagamento referente a Mar 2025
+30/11/2024  08:57:34,Manutenção predial,611.52,Manutenção predial - pagamento referente a Nov 2024
+20/09/2025  22:37:16,Folha de pagamento,1799.33,Folha de pagamento - pagamento referente a Sep 2025
+30/01/2025  13:07:29,Eventos,694.89,Eventos - pagamento referente a Jan 2025
+20/09/2024  15:12:15,Água,3153.25,Água - pagamento referente a Sep 2024
+17/02/2025  11:49:37,Alimentação,3105.73,Alimentação - pagamento referente a Feb 2025
+02/07/2024  09:12:02,Segurança e Monitoramento,1152.63,Segurança e Monitoramento - pagamento referente a Jul 2024
+29/07/2024  01:20:59,Vale Transporte,1949.86,Vale Transporte - pagamento referente a Jul 2024
+12/02/2025  05:11:15,Manutenção predial,601.63,Manutenção predial - pagamento referente a Feb 2025
+29/06/2025  23:41:23,Aluguel,2224.95,Aluguel - pagamento referente a Jun 2025
+12/05/2025  20:51:18,Materiais de Escritório,481.91,Materiais de Escritório - pagamento referente a May 2025
+09/12/2024  17:52:23,Materiais de Escritório,156.09,Materiais de Escritório - pagamento referente a Dec 2024
+18/09/2025  23:35:26,Sistemas,2406.27,Sistemas - pagamento referente a Sep 2025
+14/12/2024  21:31:26,Fretes,62.65,Fretes - pagamento referente a Dec 2024
+11/02/2024  19:20:42,Sistemas,1846.11,Sistemas - pagamento referente a Feb 2024
+21/08/2025  17:19:58,Expedição,243.81,Expedição - pagamento referente a Aug 2025
+22/06/2025  09:44:37,Contabilidade,2752.62,Contabilidade - pagamento referente a Jun 2025
+31/10/2024  21:55:34,Contabilidade,1262.27,Contabilidade - pagamento referente a Oct 2024
+14/02/2024  10:25:44,Vale Transporte,1972.23,Vale Transporte - pagamento referente a Feb 2024
+03/06/2024  13:54:06,Alimentação,2019.61,Alimentação - pagamento referente a Jun 2024
+22/07/2025  12:48:13,Companhia de mídia,5.0,Companhia de mídia - pagamento referente a Jul 2025
+18/09/2025  12:12:12,Compras de equipamentos,367.15,Compras de equipamentos - pagamento referente a Sep 2025
+19/02/2024  06:45:44,Serviços de terceiros,174.13,Serviços de terceiros - pagamento referente a Feb 2024
+24/01/2025  17:48:50,Alimentação,1490.09,Alimentação - pagamento referente a Jan 2025
+27/06/2025  08:12:07,Internet,1921.33,Internet - pagamento referente a Jun 2025
+22/02/2025  18:52:11,Serviços de terceiros,276.18,Serviços de terceiros - pagamento referente a Feb 2025
+23/09/2024  03:12:01,Fretes,311.85,Fretes - pagamento referente a Sep 2024
+04/07/2025  23:14:28,Internet,2335.22,Internet - pagamento referente a Jul 2025
+05/01/2025  00:59:26,Aluguel,2951.21,Aluguel - pagamento referente a Jan 2025
+10/07/2025  10:07:51,Compras de equipamentos,333.39,Compras de equipamentos - pagamento referente a Jul 2025
+28/03/2025  11:52:03,Compras de equipamentos,5.0,Compras de equipamentos - pagamento referente a Mar 2025
+18/06/2025  02:36:52,Alimentação,1740.13,Alimentação - pagamento referente a Jun 2025
+07/12/2024  23:37:44,Expedição,291.25,Expedição - pagamento referente a Dec 2024
+26/11/2024  12:05:23,Serviços de terceiros,263.91,Serviços de terceiros - pagamento referente a Nov 2024
+01/01/2024  14:39:36,Sistemas,409.94,Sistemas - pagamento referente a Jan 2024
+26/06/2024  19:29:53,Expedição,106.75,Expedição - pagamento referente a Jun 2024
+09/07/2025  22:28:24,Manutenção predial,477.03,Manutenção predial - pagamento referente a Jul 2025
+01/07/2024  02:01:16,Segurança e Monitoramento,593.01,Segurança e Monitoramento - pagamento referente a Jul 2024
+11/06/2025  15:28:21,Eventos,52.59,Eventos - pagamento referente a Jun 2025
+25/03/2025  10:17:46,Companhia de mídia,510.16,Companhia de mídia - pagamento referente a Mar 2025
+02/04/2025  17:31:58,Segurança e Monitoramento,1499.55,Segurança e Monitoramento - pagamento referente a Apr 2025
+17/05/2025  22:18:44,Manutenção de equipamento,375.66,Manutenção de equipamento - pagamento referente a May 2025
+22/09/2025  07:36:40,Internet,3222.77,Internet - pagamento referente a Sep 2025
+24/02/2025  00:03:24,Fretes,598.76,Fretes - pagamento referente a Feb 2025
+15/12/2024  18:27:24,Aluguel,2378.08,Aluguel - pagamento referente a Dec 2024
+06/01/2024  13:31:30,Segurança e Monitoramento,1043.03,Segurança e Monitoramento - pagamento referente a Jan 2024
+15/01/2024  17:06:03,Materiais de Limpeza,253.59,Materiais de Limpeza - pagamento referente a Jan 2024
+01/07/2024  10:59:06,Materiais de Limpeza,642.16,Materiais de Limpeza - pagamento referente a Jul 2024
+13/11/2024  12:24:35,Devoluções e ressarcimento,164.14,Devoluções e ressarcimento - pagamento referente a Nov 2024
+08/01/2025  16:02:25,Energia,2231.33,Energia - pagamento referente a Jan 2025
+22/06/2025  23:21:56,Devoluções e ressarcimento,326.34,Devoluções e ressarcimento - pagamento referente a Jun 2025
+03/03/2024  09:14:25,Alimentação,1941.74,Alimentação - pagamento referente a Mar 2024
+20/02/2024  02:29:26,Materiais de Limpeza,324.91,Materiais de Limpeza - pagamento referente a Feb 2024
+19/08/2025  12:54:58,Energia,1032.24,Energia - pagamento referente a Aug 2025
+15/02/2024  01:35:15,Sistemas,2378.87,Sistemas - pagamento referente a Feb 2024
+27/10/2024  10:15:19,Contabilidade,2087.52,Contabilidade - pagamento referente a Oct 2024
+09/01/2025  22:36:40,Energia,1972.25,Energia - pagamento referente a Jan 2025
+10/03/2025  00:24:03,Internet,2701.89,Internet - pagamento referente a Mar 2025
+28/05/2024  20:41:56,Materiais de Escritório,75.69,Materiais de Escritório - pagamento referente a May 2024
+28/08/2024  22:20:46,Expedição,137.34,Expedição - pagamento referente a Aug 2024
+10/05/2025  21:16:09,Folha de pagamento,2949.62,Folha de pagamento - pagamento referente a May 2025
+25/01/2024  05:34:49,Compras de equipamentos,5.0,Compras de equipamentos - pagamento referente a Jan 2024
+12/02/2024  20:32:25,Manutenção de equipamento,401.01,Manutenção de equipamento - pagamento referente a Feb 2024
+29/05/2025  12:26:38,Alimentação,2490.22,Alimentação - pagamento referente a May 2025
+19/03/2025  03:00:32,Manutenção de equipamento,460.21,Manutenção de equipamento - pagamento referente a Mar 2025
+29/08/2025  18:27:33,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Aug 2025
+20/03/2024  17:49:30,Fretes,506.8,Fretes - pagamento referente a Mar 2024
+05/09/2025  15:14:20,Materiais de Escritório,308.0,Materiais de Escritório - pagamento referente a Sep 2025
+11/09/2025  20:03:03,Expedição,625.44,Expedição - pagamento referente a Sep 2025
+29/09/2025  00:39:54,Expedição,135.78,Expedição - pagamento referente a Sep 2025
+23/01/2025  00:10:31,Expedição,229.55,Expedição - pagamento referente a Jan 2025
+22/01/2024  13:22:27,Companhia de mídia,532.82,Companhia de mídia - pagamento referente a Jan 2024
+25/03/2024  11:10:38,Eventos,589.65,Eventos - pagamento referente a Mar 2024
+27/01/2024  02:48:34,Contabilidade,2590.77,Contabilidade - pagamento referente a Jan 2024
+15/06/2024  18:48:37,Fretes,97.93,Fretes - pagamento referente a Jun 2024
+10/10/2024  22:09:51,Fretes,698.3,Fretes - pagamento referente a Oct 2024
+03/11/2024  00:19:28,Expedição,206.29,Expedição - pagamento referente a Nov 2024
+13/03/2025  10:44:15,Folha de pagamento,3440.75,Folha de pagamento - pagamento referente a Mar 2025
+08/03/2024  11:11:19,Aluguel,1292.91,Aluguel - pagamento referente a Mar 2024
+19/06/2025  12:49:37,Segurança e Monitoramento,2441.99,Segurança e Monitoramento - pagamento referente a Jun 2025
+27/08/2024  10:59:36,Embalagem,367.61,Embalagem - pagamento referente a Aug 2024
+18/01/2024  14:08:27,Internet,2780.44,Internet - pagamento referente a Jan 2024
+25/05/2025  11:35:30,Manutenção predial,391.24,Manutenção predial - pagamento referente a May 2025
+22/11/2024  17:21:24,Contabilidade,1377.75,Contabilidade - pagamento referente a Nov 2024
+31/08/2024  09:30:15,Manutenção de equipamento,531.54,Manutenção de equipamento - pagamento referente a Aug 2024
+13/06/2024  09:47:21,Alimentação,3160.91,Alimentação - pagamento referente a Jun 2024
+21/07/2025  00:10:05,Água,2487.31,Água - pagamento referente a Jul 2025
+25/02/2024  13:14:11,Compras de equipamentos,34.42,Compras de equipamentos - pagamento referente a Feb 2024
+02/07/2025  23:24:59,Serviços de terceiros,342.34,Serviços de terceiros - pagamento referente a Jul 2025
+17/04/2025  23:39:07,Vale Transporte,2521.86,Vale Transporte - pagamento referente a Apr 2025
+03/02/2025  11:45:42,Serviços de terceiros,840.81,Serviços de terceiros - pagamento referente a Feb 2025
+21/11/2024  08:50:28,Devoluções e ressarcimento,480.42,Devoluções e ressarcimento - pagamento referente a Nov 2024
+01/07/2025  02:52:09,Devoluções e ressarcimento,319.0,Devoluções e ressarcimento - pagamento referente a Jul 2025
+10/09/2024  01:18:45,Energia,1516.81,Energia - pagamento referente a Sep 2024
+30/09/2024  01:53:25,Devoluções e ressarcimento,218.49,Devoluções e ressarcimento - pagamento referente a Sep 2024
+08/02/2025  20:51:34,Aluguel,2472.52,Aluguel - pagamento referente a Feb 2025
+12/07/2025  18:51:47,Manutenção predial,154.58,Manutenção predial - pagamento referente a Jul 2025
+09/10/2024  06:21:41,Energia,1899.37,Energia - pagamento referente a Oct 2024
+02/06/2025  22:54:04,Expedição,555.64,Expedição - pagamento referente a Jun 2025
+13/12/2024  00:47:39,Segurança e Monitoramento,2823.32,Segurança e Monitoramento - pagamento referente a Dec 2024
+21/01/2025  19:04:33,Aluguel,3157.58,Aluguel - pagamento referente a Jan 2025
+19/07/2025  11:49:45,Serviços de terceiros,5.0,Serviços de terceiros - pagamento referente a Jul 2025
+12/09/2025  07:38:45,Energia,3062.56,Energia - pagamento referente a Sep 2025
+19/07/2025  16:07:33,Aluguel,1384.02,Aluguel - pagamento referente a Jul 2025
+15/08/2024  17:08:39,Energia,1897.67,Energia - pagamento referente a Aug 2024
+21/10/2024  21:27:35,Devoluções e ressarcimento,355.97,Devoluções e ressarcimento - pagamento referente a Oct 2024
+21/08/2025  12:19:14,Alimentação,2128.46,Alimentação - pagamento referente a Aug 2025
+01/01/2024  03:59:23,Vale Transporte,432.26,Vale Transporte - pagamento referente a Jan 2024
+05/09/2025  19:18:20,Companhia de mídia,479.74,Companhia de mídia - pagamento referente a Sep 2025
+08/04/2024  20:43:58,Vale Transporte,50.0,Vale Transporte - pagamento referente a Apr 2024
+03/10/2024  16:28:51,Folha de pagamento,2057.25,Folha de pagamento - pagamento referente a Oct 2024
+19/03/2024  19:42:24,Embalagem,980.04,Embalagem - pagamento referente a Mar 2024
+21/11/2024  20:48:02,Energia,1973.8,Energia - pagamento referente a Nov 2024
+27/08/2024  18:02:52,Aluguel,2431.13,Aluguel - pagamento referente a Aug 2024
+09/10/2024  01:35:37,Internet,2384.81,Internet - pagamento referente a Oct 2024
+04/06/2024  16:32:12,Expedição,838.3,Expedição - pagamento referente a Jun 2024
+11/09/2024  13:09:26,Segurança e Monitoramento,1311.67,Segurança e Monitoramento - pagamento referente a Sep 2024
+17/01/2024  05:32:58,Sistemas,1989.2,Sistemas - pagamento referente a Jan 2024
+14/07/2024  00:39:22,Alimentação,895.92,Alimentação - pagamento referente a Jul 2024
+02/01/2025  01:50:25,Compras de equipamentos,522.41,Compras de equipamentos - pagamento referente a Jan 2025
+27/05/2025  07:58:40,Materiais de Limpeza,380.34,Materiais de Limpeza - pagamento referente a May 2025
+20/08/2024  23:57:38,Embalagem,680.78,Embalagem - pagamento referente a Aug 2024
+15/04/2024  05:44:19,Aluguel,1001.77,Aluguel - pagamento referente a Apr 2024
+08/01/2025  01:30:23,Serviços de terceiros,287.63,Serviços de terceiros - pagamento referente a Jan 2025
+07/08/2025  05:25:06,Sistemas,1509.28,Sistemas - pagamento referente a Aug 2025
+06/02/2025  23:00:44,Manutenção predial,451.97,Manutenção predial - pagamento referente a Feb 2025
+18/08/2024  03:20:15,Fretes,151.9,Fretes - pagamento referente a Aug 2024
+14/07/2025  18:23:39,Água,2666.82,Água - pagamento referente a Jul 2025
+24/11/2024  17:57:15,Manutenção predial,448.28,Manutenção predial - pagamento referente a Nov 2024
+23/04/2025  04:13:44,Manutenção de equipamento,569.67,Manutenção de equipamento - pagamento referente a Apr 2025
+16/02/2025  01:05:17,Serviços de terceiros,445.98,Serviços de terceiros - pagamento referente a Feb 2025
+30/10/2024  15:02:18,Companhia de mídia,55.31,Companhia de mídia - pagamento referente a Oct 2024
+04/05/2025  08:39:12,Segurança e Monitoramento,1935.43,Segurança e Monitoramento - pagamento referente a May 2025
+11/06/2024  05:04:32,Materiais de Limpeza,539.82,Materiais de Limpeza - pagamento referente a Jun 2024
+06/12/2024  11:20:12,Fretes,716.37,Fretes - pagamento referente a Dec 2024
+16/02/2024  12:15:09,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Feb 2024
+04/04/2024  16:58:29,Aluguel,1612.61,Aluguel - pagamento referente a Apr 2024
+17/11/2024  13:06:01,Energia,1711.23,Energia - pagamento referente a Nov 2024
+06/12/2024  15:40:34,Materiais de Limpeza,147.12,Materiais de Limpeza - pagamento referente a Dec 2024
+02/10/2024  14:38:43,Folha de pagamento,1955.53,Folha de pagamento - pagamento referente a Oct 2024
+07/10/2024  06:47:07,Devoluções e ressarcimento,46.97,Devoluções e ressarcimento - pagamento referente a Oct 2024
+21/07/2024  03:49:37,Embalagem,5.0,Embalagem - pagamento referente a Jul 2024
+02/10/2024  11:41:42,Serviços de terceiros,102.38,Serviços de terceiros - pagamento referente a Oct 2024
+27/05/2025  18:30:59,Compras de equipamentos,822.09,Compras de equipamentos - pagamento referente a May 2025
+16/04/2024  22:18:32,Água,1365.98,Água - pagamento referente a Apr 2024
+19/01/2025  02:00:16,Segurança e Monitoramento,2213.64,Segurança e Monitoramento - pagamento referente a Jan 2025
+05/05/2024  12:29:23,Manutenção de equipamento,92.75,Manutenção de equipamento - pagamento referente a May 2024
+06/02/2025  03:15:42,Alimentação,2518.97,Alimentação - pagamento referente a Feb 2025
+27/02/2024  17:21:01,Sistemas,3508.95,Sistemas - pagamento referente a Feb 2024
+09/07/2025  07:23:05,Eventos,69.83,Eventos - pagamento referente a Jul 2025
+23/05/2025  10:06:48,Companhia de mídia,5.0,Companhia de mídia - pagamento referente a May 2025
+25/02/2025  07:36:54,Serviços de terceiros,336.68,Serviços de terceiros - pagamento referente a Feb 2025
+14/10/2024  04:19:24,Internet,3505.62,Internet - pagamento referente a Oct 2024
+08/12/2024  17:18:10,Fretes,346.21,Fretes - pagamento referente a Dec 2024
+14/06/2024  00:29:58,Energia,1679.02,Energia - pagamento referente a Jun 2024
+28/03/2025  18:49:13,Alimentação,1823.23,Alimentação - pagamento referente a Mar 2025
+23/12/2024  09:58:39,Manutenção predial,306.52,Manutenção predial - pagamento referente a Dec 2024
+20/01/2025  23:38:18,Aluguel,1617.0,Aluguel - pagamento referente a Jan 2025
+15/10/2024  21:46:34,Companhia de mídia,769.2,Companhia de mídia - pagamento referente a Oct 2024
+30/12/2024  05:35:10,Devoluções e ressarcimento,5.0,Devoluções e ressarcimento - pagamento referente a Dec 2024
+09/02/2024  01:45:27,Aluguel,1978.79,Aluguel - pagamento referente a Feb 2024
+25/06/2024  08:18:20,Sistemas,2415.48,Sistemas - pagamento referente a Jun 2024
+26/10/2024  21:26:39,Aluguel,3196.84,Aluguel - pagamento referente a Oct 2024
+02/04/2025  22:07:26,Fretes,720.98,Fretes - pagamento referente a Apr 2025
+08/12/2024  09:07:11,Expedição,118.56,Expedição - pagamento referente a Dec 2024
+03/11/2024  15:54:27,Materiais de Limpeza,326.61,Materiais de Limpeza - pagamento referente a Nov 2024
+13/05/2025  04:03:42,Folha de pagamento,2840.52,Folha de pagamento - pagamento referente a May 2025
+05/10/2024  16:18:14,Manutenção predial,911.44,Manutenção predial - pagamento referente a Oct 2024
+04/05/2025  14:29:42,Manutenção predial,386.62,Manutenção predial - pagamento referente a May 2025
+09/04/2025  17:39:03,Eventos,356.11,Eventos - pagamento referente a Apr 2025
+26/09/2025  07:00:02,Manutenção predial,839.33,Manutenção predial - pagamento referente a Sep 2025
+04/12/2024  08:42:55,Devoluções e ressarcimento,553.59,Devoluções e ressarcimento - pagamento referente a Dec 2024
+12/04/2025  06:10:58,Serviços de terceiros,461.8,Serviços de terceiros - pagamento referente a Apr 2025
+03/08/2025  15:35:03,Aluguel,1758.02,Aluguel - pagamento referente a Aug 2025
+31/07/2025  08:56:34,Manutenção predial,261.88,Manutenção predial - pagamento referente a Jul 2025
+28/03/2024  21:38:51,Sistemas,1803.69,Sistemas - pagamento referente a Mar 2024
+24/08/2025  09:28:40,Contabilidade,2002.44,Contabilidade - pagamento referente a Aug 2025
+04/05/2024  21:55:01,Contabilidade,2545.56,Contabilidade - pagamento referente a May 2024
+18/07/2025  09:46:53,Materiais de Escritório,335.43,Materiais de Escritório - pagamento referente a Jul 2025
+27/02/2024  00:19:18,Segurança e Monitoramento,2632.83,Segurança e Monitoramento - pagamento referente a Feb 2024
+18/04/2024  13:05:14,Sistemas,1470.57,Sistemas - pagamento referente a Apr 2024
+20/12/2024  01:55:22,Aluguel,918.65,Aluguel - pagamento referente a Dec 2024
+13/06/2025  21:07:34,Aluguel,888.34,Aluguel - pagamento referente a Jun 2025
+18/04/2024  04:24:12,Eventos,426.25,Eventos - pagamento referente a Apr 2024
+16/05/2024  03:06:15,Materiais de Escritório,457.41,Materiais de Escritório - pagamento referente a May 2024
+26/01/2024  03:15:12,Segurança e Monitoramento,2265.01,Segurança e Monitoramento - pagamento referente a Jan 2024
+21/05/2025  06:12:13,Eventos,354.36,Eventos - pagamento referente a May 2025
+19/05/2024  17:45:20,Serviços de terceiros,456.03,Serviços de terceiros - pagamento referente a May 2024
+13/08/2024  04:48:23,Compras de equipamentos,178.22,Compras de equipamentos - pagamento referente a Aug 2024
+18/01/2025  17:39:09,Água,1586.17,Água - pagamento referente a Jan 2025
+05/12/2024  22:20:53,Alimentação,1418.29,Alimentação - pagamento referente a Dec 2024
+28/04/2024  04:28:34,Devoluções e ressarcimento,136.67,Devoluções e ressarcimento - pagamento referente a Apr 2024
+31/05/2024  03:54:52,Fretes,436.77,Fretes - pagamento referente a May 2024
+30/01/2024  00:38:20,Devoluções e ressarcimento,352.22,Devoluções e ressarcimento - pagamento referente a Jan 2024
+17/05/2025  11:44:06,Folha de pagamento,2041.56,Folha de pagamento - pagamento referente a May 2025
+08/11/2024  02:21:38,Eventos,533.92,Eventos - pagamento referente a Nov 2024
+22/02/2024  02:18:32,Manutenção de equipamento,446.71,Manutenção de equipamento - pagamento referente a Feb 2024
+06/03/2025  19:51:00,Alimentação,1802.26,Alimentação - pagamento referente a Mar 2025
+13/09/2024  12:52:22,Contabilidade,2296.92,Contabilidade - pagamento referente a Sep 2024
+12/12/2024  14:39:11,Manutenção de equipamento,143.8,Manutenção de equipamento - pagamento referente a Dec 2024
+23/04/2024  12:24:42,Materiais de Limpeza,830.54,Materiais de Limpeza - pagamento referente a Apr 2024
+08/07/2024  12:05:23,Alimentação,2516.3,Alimentação - pagamento referente a Jul 2024
+11/06/2024  20:20:09,Fretes,150.15,Fretes - pagamento referente a Jun 2024
+24/01/2025  03:14:47,Compras de equipamentos,546.08,Compras de equipamentos - pagamento referente a Jan 2025
+24/09/2025  13:52:23,Folha de pagamento,3732.0,Folha de pagamento - pagamento referente a Sep 2025
+15/04/2024  03:41:53,Contabilidade,2681.95,Contabilidade - pagamento referente a Apr 2024
+06/09/2025  05:35:25,Compras de equipamentos,208.76,Compras de equipamentos - pagamento referente a Sep 2025
+14/06/2025  05:00:20,Alimentação,1820.29,Alimentação - pagamento referente a Jun 2025
+25/09/2025  19:15:20,Energia,1162.47,Energia - pagamento referente a Sep 2025
+06/01/2024  01:32:05,Internet,3230.43,Internet - pagamento referente a Jan 2024
+01/02/2025  22:44:22,Manutenção predial,392.17,Manutenção predial - pagamento referente a Feb 2025
+23/03/2024  15:28:50,Aluguel,2378.59,Aluguel - pagamento referente a Mar 2024
+07/08/2025  04:51:47,Contabilidade,3112.17,Contabilidade - pagamento referente a Aug 2025
+29/02/2024  08:11:37,Água,2139.66,Água - pagamento referente a Feb 2024
+22/09/2024  23:43:41,Água,2423.84,Água - pagamento referente a Sep 2024
+30/06/2025  08:26:24,Fretes,5.0,Fretes - pagamento referente a Jun 2025
+21/09/2025  04:44:34,Sistemas,3249.21,Sistemas - pagamento referente a Sep 2025
+26/01/2024  13:12:06,Sistemas,2824.8,Sistemas - pagamento referente a Jan 2024
+26/10/2024  09:46:01,Serviços de terceiros,383.42,Serviços de terceiros - pagamento referente a Oct 2024
+12/11/2024  17:05:38,Eventos,589.83,Eventos - pagamento referente a Nov 2024
+24/09/2025  02:53:19,Energia,2742.27,Energia - pagamento referente a Sep 2025
+07/02/2024  14:22:19,Alimentação,1725.83,Alimentação - pagamento referente a Feb 2024
+30/08/2025  08:22:01,Companhia de mídia,314.16,Companhia de mídia - pagamento referente a Aug 2025
+18/08/2025  05:49:18,Expedição,421.63,Expedição - pagamento referente a Aug 2025
+15/02/2025  00:16:13,Alimentação,2106.38,Alimentação - pagamento referente a Feb 2025
+07/08/2024  04:15:50,Devoluções e ressarcimento,1069.72,Devoluções e ressarcimento - pagamento referente a Aug 2024
+14/11/2024  09:30:50,Energia,2739.22,Energia - pagamento referente a Nov 2024
+25/08/2025  12:33:48,Energia,1689.46,Energia - pagamento referente a Aug 2025
+01/11/2024  06:37:09,Serviços de terceiros,214.33,Serviços de terceiros - pagamento referente a Nov 2024
+06/07/2025  21:02:23,Alimentação,2873.05,Alimentação - pagamento referente a Jul 2025
+08/01/2024  00:04:45,Materiais de Limpeza,385.9,Materiais de Limpeza - pagamento referente a Jan 2024
+07/04/2025  08:53:33,Segurança e Monitoramento,3181.23,Segurança e Monitoramento - pagamento referente a Apr 2025
+01/09/2025  20:32:24,Internet,2960.33,Internet - pagamento referente a Sep 2025
+31/03/2024  06:29:44,Água,2629.67,Água - pagamento referente a Mar 2024
+17/02/2024  17:43:46,Manutenção de equipamento,315.06,Manutenção de equipamento - pagamento referente a Feb 2024
+25/08/2024  04:27:32,Folha de pagamento,1482.74,Folha de pagamento - pagamento referente a Aug 2024
+29/08/2024  20:34:18,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Aug 2024
+24/06/2025  18:31:21,Expedição,648.0,Expedição - pagamento referente a Jun 2025
+09/05/2025  12:21:18,Fretes,36.65,Fretes - pagamento referente a May 2025
+09/01/2024  16:55:38,Companhia de mídia,271.09,Companhia de mídia - pagamento referente a Jan 2024
+01/05/2024  11:50:50,Alimentação,1751.79,Alimentação - pagamento referente a May 2024
+18/10/2024  16:08:24,Alimentação,1208.32,Alimentação - pagamento referente a Oct 2024
+05/06/2025  05:11:14,Eventos,5.0,Eventos - pagamento referente a Jun 2025
+17/06/2024  02:19:29,Fretes,110.22,Fretes - pagamento referente a Jun 2024
+05/02/2025  13:12:41,Compras de equipamentos,210.18,Compras de equipamentos - pagamento referente a Feb 2025
+07/04/2025  23:01:37,Compras de equipamentos,693.5,Compras de equipamentos - pagamento referente a Apr 2025
+05/05/2025  22:41:11,Compras de equipamentos,423.92,Compras de equipamentos - pagamento referente a May 2025
+13/11/2024  10:18:47,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Nov 2024
+19/01/2025  15:49:49,Segurança e Monitoramento,1555.62,Segurança e Monitoramento - pagamento referente a Jan 2025
+11/02/2025  23:44:22,Manutenção predial,95.77,Manutenção predial - pagamento referente a Feb 2025
+08/05/2024  04:50:36,Segurança e Monitoramento,2879.02,Segurança e Monitoramento - pagamento referente a May 2024
+29/03/2025  18:01:11,Segurança e Monitoramento,732.88,Segurança e Monitoramento - pagamento referente a Mar 2025
+23/03/2025  06:17:23,Fretes,406.36,Fretes - pagamento referente a Mar 2025
+04/05/2024  04:02:02,Vale Transporte,2650.29,Vale Transporte - pagamento referente a May 2024
+19/07/2024  13:11:42,Manutenção de equipamento,5.0,Manutenção de equipamento - pagamento referente a Jul 2024
+23/02/2025  02:22:16,Sistemas,1439.9,Sistemas - pagamento referente a Feb 2025
+01/07/2025  06:54:42,Compras de equipamentos,74.02,Compras de equipamentos - pagamento referente a Jul 2025
+21/02/2024  19:21:05,Alimentação,3752.36,Alimentação - pagamento referente a Feb 2024
+10/03/2024  08:14:07,Segurança e Monitoramento,2685.12,Segurança e Monitoramento - pagamento referente a Mar 2024
+24/01/2025  07:03:15,Energia,3162.71,Energia - pagamento referente a Jan 2025
+05/03/2025  18:37:37,Sistemas,2514.18,Sistemas - pagamento referente a Mar 2025
+11/03/2024  08:56:38,Água,1143.29,Água - pagamento referente a Mar 2024
+11/03/2024  03:47:34,Internet,2171.27,Internet - pagamento referente a Mar 2024
+08/10/2024  06:04:06,Eventos,463.59,Eventos - pagamento referente a Oct 2024
+18/03/2024  13:42:23,Energia,1288.39,Energia - pagamento referente a Mar 2024
+26/09/2025  22:30:44,Eventos,148.57,Eventos - pagamento referente a Sep 2025
+23/03/2024  20:15:06,Vale Transporte,3517.43,Vale Transporte - pagamento referente a Mar 2024
+03/10/2024  01:27:22,Energia,1591.99,Energia - pagamento referente a Oct 2024
+18/02/2025  09:11:31,Folha de pagamento,2023.0,Folha de pagamento - pagamento referente a Feb 2025
+11/08/2025  21:32:31,Fretes,316.12,Fretes - pagamento referente a Aug 2025
+22/08/2025  08:47:44,Energia,1730.33,Energia - pagamento referente a Aug 2025
+09/02/2025  17:52:50,Folha de pagamento,1866.31,Folha de pagamento - pagamento referente a Feb 2025
+19/02/2025  04:36:12,Devoluções e ressarcimento,201.67,Devoluções e ressarcimento - pagamento referente a Feb 2025
+27/03/2024  15:06:27,Expedição,280.72,Expedição - pagamento referente a Mar 2024
+05/01/2024  21:30:35,Internet,2137.09,Internet - pagamento referente a Jan 2024
+10/11/2024  13:24:49,Energia,2492.75,Energia - pagamento referente a Nov 2024
+13/01/2024  03:56:36,Alimentação,3251.71,Alimentação - pagamento referente a Jan 2024
+03/01/2024  19:04:43,Alimentação,1971.34,Alimentação - pagamento referente a Jan 2024
+20/09/2024  03:59:21,Vale Transporte,369.5,Vale Transporte - pagamento referente a Sep 2024
+19/05/2024  23:46:09,Companhia de mídia,486.82,Companhia de mídia - pagamento referente a May 2024
+26/07/2025  17:39:44,Manutenção de equipamento,286.06,Manutenção de equipamento - pagamento referente a Jul 2025
+26/02/2025  15:22:58,Manutenção predial,505.12,Manutenção predial - pagamento referente a Feb 2025
+18/05/2025  22:40:20,Sistemas,2120.34,Sistemas - pagamento referente a May 2025
+04/02/2025  15:09:21,Energia,2155.27,Energia - pagamento referente a Feb 2025
+27/05/2024  07:21:49,Contabilidade,2650.81,Contabilidade - pagamento referente a May 2024
+23/04/2025  15:21:15,Aluguel,2316.64,Aluguel - pagamento referente a Apr 2025
+04/03/2025  07:08:19,Fretes,129.74,Fretes - pagamento referente a Mar 2025
+03/05/2024  17:13:37,Segurança e Monitoramento,2660.33,Segurança e Monitoramento - pagamento referente a May 2024
+27/03/2025  08:47:53,Energia,3202.72,Energia - pagamento referente a Mar 2025
+21/06/2025  12:27:20,Aluguel,3832.75,Aluguel - pagamento referente a Jun 2025
+09/03/2025  19:51:19,Materiais de Limpeza,129.5,Materiais de Limpeza - pagamento referente a Mar 2025
+15/07/2024  22:30:40,Internet,1248.1,Internet - pagamento referente a Jul 2024
+12/11/2024  08:15:46,Materiais de Limpeza,253.77,Materiais de Limpeza - pagamento referente a Nov 2024
+09/10/2024  00:47:13,Manutenção predial,559.38,Manutenção predial - pagamento referente a Oct 2024
+01/02/2025  16:30:00,Embalagem,347.77,Embalagem - pagamento referente a Feb 2025
+12/01/2024  14:57:33,Fretes,120.04,Fretes - pagamento referente a Jan 2024
+28/01/2024  20:19:53,Materiais de Limpeza,35.57,Materiais de Limpeza - pagamento referente a Jan 2024
+20/03/2025  21:44:25,Folha de pagamento,1458.89,Folha de pagamento - pagamento referente a Mar 2025
+27/07/2024  20:11:53,Manutenção de equipamento,391.65,Manutenção de equipamento - pagamento referente a Jul 2024
+17/12/2024  20:20:38,Serviços de terceiros,5.0,Serviços de terceiros - pagamento referente a Dec 2024
+18/12/2024  06:27:06,Materiais de Limpeza,940.02,Materiais de Limpeza - pagamento referente a Dec 2024
+26/11/2024  22:46:05,Compras de equipamentos,22.36,Compras de equipamentos - pagamento referente a Nov 2024
+26/06/2024  08:37:03,Expedição,168.56,Expedição - pagamento referente a Jun 2024
+03/01/2025  09:05:32,Segurança e Monitoramento,3127.48,Segurança e Monitoramento - pagamento referente a Jan 2025
+20/12/2024  12:37:07,Expedição,5.0,Expedição - pagamento referente a Dec 2024
+29/03/2025  13:16:24,Materiais de Limpeza,477.25,Materiais de Limpeza - pagamento referente a Mar 2025
+21/09/2024  18:14:34,Folha de pagamento,3660.32,Folha de pagamento - pagamento referente a Sep 2024
+09/02/2025  08:28:56,Contabilidade,2835.33,Contabilidade - pagamento referente a Feb 2025
+31/01/2024  02:05:46,Devoluções e ressarcimento,349.22,Devoluções e ressarcimento - pagamento referente a Jan 2024
+03/07/2024  16:23:04,Compras de equipamentos,286.11,Compras de equipamentos - pagamento referente a Jul 2024
+05/01/2024  23:59:56,Manutenção predial,130.77,Manutenção predial - pagamento referente a Jan 2024
+11/10/2024  18:38:49,Manutenção de equipamento,332.31,Manutenção de equipamento - pagamento referente a Oct 2024
+03/06/2024  15:28:40,Vale Transporte,300.88,Vale Transporte - pagamento referente a Jun 2024
+29/03/2025  06:53:03,Alimentação,2608.33,Alimentação - pagamento referente a Mar 2025
+09/07/2025  06:00:45,Aluguel,2027.27,Aluguel - pagamento referente a Jul 2025
+07/09/2025  03:02:36,Materiais de Limpeza,675.33,Materiais de Limpeza - pagamento referente a Sep 2025
+31/01/2025  10:00:48,Manutenção de equipamento,157.31,Manutenção de equipamento - pagamento referente a Jan 2025
+31/10/2024  13:23:57,Serviços de terceiros,394.33,Serviços de terceiros - pagamento referente a Oct 2024
+01/06/2025  21:15:54,Eventos,435.82,Eventos - pagamento referente a Jun 2025
+17/01/2025  21:57:03,Internet,2393.96,Internet - pagamento referente a Jan 2025
+03/06/2024  12:55:47,Folha de pagamento,2552.12,Folha de pagamento - pagamento referente a Jun 2024
+30/07/2024  15:44:53,Contabilidade,2548.84,Contabilidade - pagamento referente a Jul 2024
+17/03/2024  20:21:00,Companhia de mídia,96.05,Companhia de mídia - pagamento referente a Mar 2024
+27/12/2024  03:08:48,Companhia de mídia,543.14,Companhia de mídia - pagamento referente a Dec 2024
+11/11/2024  19:24:51,Embalagem,123.91,Embalagem - pagamento referente a Nov 2024
+16/02/2025  20:20:11,Materiais de Escritório,362.35,Materiais de Escritório - pagamento referente a Feb 2025
+14/08/2024  19:40:01,Devoluções e ressarcimento,81.1,Devoluções e ressarcimento - pagamento referente a Aug 2024
+02/05/2024  04:47:26,Compras de equipamentos,267.46,Compras de equipamentos - pagamento referente a May 2024
+10/06/2025  20:09:19,Manutenção de equipamento,489.73,Manutenção de equipamento - pagamento referente a Jun 2025
+20/08/2025  14:40:47,Materiais de Limpeza,533.58,Materiais de Limpeza - pagamento referente a Aug 2025
+13/04/2024  10:40:45,Devoluções e ressarcimento,68.27,Devoluções e ressarcimento - pagamento referente a Apr 2024
+22/02/2024  09:14:51,Segurança e Monitoramento,1207.57,Segurança e Monitoramento - pagamento referente a Feb 2024
+13/04/2025  14:17:53,Serviços de terceiros,5.0,Serviços de terceiros - pagamento referente a Apr 2025
+03/02/2025  01:14:38,Alimentação,3022.76,Alimentação - pagamento referente a Feb 2025
+05/08/2024  20:19:39,Materiais de Escritório,669.99,Materiais de Escritório - pagamento referente a Aug 2024
+20/02/2024  18:19:25,Materiais de Escritório,487.98,Materiais de Escritório - pagamento referente a Feb 2024
+13/02/2025  18:02:11,Eventos,346.65,Eventos - pagamento referente a Feb 2025
+24/05/2024  21:33:19,Fretes,823.1,Fretes - pagamento referente a May 2024
+05/08/2024  17:40:37,Internet,862.2,Internet - pagamento referente a Aug 2024
+25/05/2025  21:14:00,Embalagem,290.69,Embalagem - pagamento referente a May 2025
+25/02/2025  03:54:33,Expedição,461.37,Expedição - pagamento referente a Feb 2025
+11/07/2024  04:08:02,Vale Transporte,1228.06,Vale Transporte - pagamento referente a Jul 2024
+13/03/2024  22:12:04,Manutenção predial,505.52,Manutenção predial - pagamento referente a Mar 2024
+17/07/2025  03:05:30,Manutenção de equipamento,161.6,Manutenção de equipamento - pagamento referente a Jul 2025
+10/03/2024  03:53:12,Vale Transporte,2308.25,Vale Transporte - pagamento referente a Mar 2024
+19/03/2024  20:43:03,Contabilidade,2843.04,Contabilidade - pagamento referente a Mar 2024
+05/06/2025  21:41:15,Sistemas,2734.65,Sistemas - pagamento referente a Jun 2025
+07/08/2024  10:38:09,Embalagem,440.74,Embalagem - pagamento referente a Aug 2024
+25/07/2024  22:30:28,Eventos,564.61,Eventos - pagamento referente a Jul 2024
+11/01/2024  03:18:27,Internet,1518.63,Internet - pagamento referente a Jan 2024
+27/09/2025  19:17:33,Folha de pagamento,1485.19,Folha de pagamento - pagamento referente a Sep 2025
+26/12/2024  07:18:02,Água,2394.65,Água - pagamento referente a Dec 2024
+24/07/2025  04:54:55,Manutenção de equipamento,718.14,Manutenção de equipamento - pagamento referente a Jul 2025
+24/11/2024  11:03:06,Companhia de mídia,738.07,Companhia de mídia - pagamento referente a Nov 2024
+02/02/2025  19:39:39,Alimentação,2545.51,Alimentação - pagamento referente a Feb 2025
+05/03/2024  18:19:05,Alimentação,897.86,Alimentação - pagamento referente a Mar 2024
+03/08/2024  16:41:10,Manutenção predial,319.34,Manutenção predial - pagamento referente a Aug 2024
+24/05/2025  17:18:56,Companhia de mídia,285.6,Companhia de mídia - pagamento referente a May 2025
+24/03/2024  18:48:33,Eventos,343.3,Eventos - pagamento referente a Mar 2024
+15/06/2024  18:41:12,Embalagem,155.77,Embalagem - pagamento referente a Jun 2024
+29/04/2025  08:41:14,Fretes,132.09,Fretes - pagamento referente a Apr 2025
+22/07/2025  14:57:37,Aluguel,1371.21,Aluguel - pagamento referente a Jul 2025
+22/01/2025  20:04:19,Companhia de mídia,188.62,Companhia de mídia - pagamento referente a Jan 2025
+01/01/2025  01:54:55,Aluguel,1828.81,Aluguel - pagamento referente a Jan 2025
+06/08/2024  05:20:59,Alimentação,3349.71,Alimentação - pagamento referente a Aug 2024
+08/09/2024  20:14:03,Sistemas,1670.5,Sistemas - pagamento referente a Sep 2024
+20/03/2025  14:11:55,Devoluções e ressarcimento,299.1,Devoluções e ressarcimento - pagamento referente a Mar 2025
+28/04/2024  13:02:20,Devoluções e ressarcimento,529.47,Devoluções e ressarcimento - pagamento referente a Apr 2024
+13/04/2025  03:35:16,Devoluções e ressarcimento,185.28,Devoluções e ressarcimento - pagamento referente a Apr 2025
+26/06/2025  07:45:47,Materiais de Limpeza,437.51,Materiais de Limpeza - pagamento referente a Jun 2025
+28/08/2025  18:03:25,Sistemas,1147.91,Sistemas - pagamento referente a Aug 2025
+12/04/2025  22:26:18,Internet,3104.07,Internet - pagamento referente a Apr 2025
+30/10/2024  14:54:23,Energia,2044.58,Energia - pagamento referente a Oct 2024
+17/08/2024  13:49:26,Manutenção predial,5.0,Manutenção predial - pagamento referente a Aug 2024
+31/05/2025  16:08:31,Aluguel,2798.41,Aluguel - pagamento referente a May 2025
+18/09/2024  09:14:19,Vale Transporte,50.0,Vale Transporte - pagamento referente a Sep 2024
+23/11/2024  06:30:20,Internet,2484.81,Internet - pagamento referente a Nov 2024
+10/09/2024  03:36:43,Materiais de Escritório,249.24,Materiais de Escritório - pagamento referente a Sep 2024
+08/10/2024  17:13:48,Folha de pagamento,1099.61,Folha de pagamento - pagamento referente a Oct 2024
+11/01/2024  08:13:42,Embalagem,321.76,Embalagem - pagamento referente a Jan 2024
+30/10/2024  23:48:07,Folha de pagamento,577.02,Folha de pagamento - pagamento referente a Oct 2024
+09/10/2024  12:43:38,Eventos,5.0,Eventos - pagamento referente a Oct 2024
+25/08/2025  11:47:37,Compras de equipamentos,246.64,Compras de equipamentos - pagamento referente a Aug 2025
+17/07/2024  12:52:34,Devoluções e ressarcimento,538.79,Devoluções e ressarcimento - pagamento referente a Jul 2024
+20/05/2024  13:06:50,Sistemas,1990.2,Sistemas - pagamento referente a May 2024
+11/09/2025  21:10:34,Eventos,90.2,Eventos - pagamento referente a Sep 2025
+03/06/2025  23:04:57,Aluguel,2352.38,Aluguel - pagamento referente a Jun 2025
+25/03/2024  07:44:30,Materiais de Limpeza,478.5,Materiais de Limpeza - pagamento referente a Mar 2024
+04/02/2024  12:57:36,Segurança e Monitoramento,464.98,Segurança e Monitoramento - pagamento referente a Feb 2024
+18/06/2025  17:09:07,Folha de pagamento,2083.36,Folha de pagamento - pagamento referente a Jun 2025
+15/08/2025  20:09:55,Internet,1248.53,Internet - pagamento referente a Aug 2025
+09/03/2024  14:15:48,Fretes,233.84,Fretes - pagamento referente a Mar 2024
+16/12/2024  04:12:52,Serviços de terceiros,56.03,Serviços de terceiros - pagamento referente a Dec 2024
+19/03/2025  17:22:22,Internet,1073.31,Internet - pagamento referente a Mar 2025
+27/08/2025  04:22:18,Devoluções e ressarcimento,489.79,Devoluções e ressarcimento - pagamento referente a Aug 2025
+24/07/2025  22:04:58,Energia,2970.48,Energia - pagamento referente a Jul 2025
+14/05/2024  08:02:44,Expedição,294.77,Expedição - pagamento referente a May 2024
+26/05/2024  19:00:17,Contabilidade,3044.38,Contabilidade - pagamento referente a May 2024
+15/09/2024  17:21:34,Expedição,17.57,Expedição - pagamento referente a Sep 2024
+11/01/2025  13:17:33,Energia,1385.76,Energia - pagamento referente a Jan 2025
+02/02/2024  03:38:27,Expedição,364.39,Expedição - pagamento referente a Feb 2024
+16/09/2025  22:28:35,Vale Transporte,3610.71,Vale Transporte - pagamento referente a Sep 2025
+24/04/2024  04:26:55,Materiais de Limpeza,616.73,Materiais de Limpeza - pagamento referente a Apr 2024
+04/03/2024  02:25:31,Energia,2866.44,Energia - pagamento referente a Mar 2024
+07/05/2025  19:55:49,Fretes,382.19,Fretes - pagamento referente a May 2025
+18/07/2025  17:30:11,Expedição,393.51,Expedição - pagamento referente a Jul 2025
+04/05/2024  23:04:30,Fretes,324.25,Fretes - pagamento referente a May 2024
+20/03/2025  20:05:12,Fretes,136.84,Fretes - pagamento referente a Mar 2025
+13/02/2024  01:54:30,Alimentação,1663.48,Alimentação - pagamento referente a Feb 2024
+15/10/2024  12:24:05,Manutenção de equipamento,489.25,Manutenção de equipamento - pagamento referente a Oct 2024
+16/12/2024  05:05:36,Aluguel,4105.91,Aluguel - pagamento referente a Dec 2024
+15/09/2025  22:42:27,Sistemas,2858.01,Sistemas - pagamento referente a Sep 2025
+18/06/2025  02:19:13,Expedição,111.51,Expedição - pagamento referente a Jun 2025
+14/09/2024  20:59:56,Devoluções e ressarcimento,398.61,Devoluções e ressarcimento - pagamento referente a Sep 2024
+08/10/2024  23:02:25,Fretes,369.99,Fretes - pagamento referente a Oct 2024
+11/08/2025  20:18:45,Água,3224.6,Água - pagamento referente a Aug 2025
+13/04/2024  14:59:20,Segurança e Monitoramento,2323.99,Segurança e Monitoramento - pagamento referente a Apr 2024
+17/01/2025  19:32:12,Serviços de terceiros,76.35,Serviços de terceiros - pagamento referente a Jan 2025
+18/10/2024  23:53:12,Folha de pagamento,2875.35,Folha de pagamento - pagamento referente a Oct 2024
+30/03/2025  03:36:49,Sistemas,3063.32,Sistemas - pagamento referente a Mar 2025
+12/04/2024  10:35:48,Materiais de Escritório,741.36,Materiais de Escritório - pagamento referente a Apr 2024
+08/11/2024  11:35:24,Companhia de mídia,17.74,Companhia de mídia - pagamento referente a Nov 2024
+24/01/2025  03:49:57,Aluguel,1196.69,Aluguel - pagamento referente a Jan 2025
+06/08/2024  11:32:14,Sistemas,2249.0,Sistemas - pagamento referente a Aug 2024
+22/09/2024  04:00:35,Internet,1653.95,Internet - pagamento referente a Sep 2024
+02/01/2024  07:04:57,Folha de pagamento,589.57,Folha de pagamento - pagamento referente a Jan 2024
+12/05/2024  01:25:17,Segurança e Monitoramento,1526.74,Segurança e Monitoramento - pagamento referente a May 2024
+07/06/2025  13:57:41,Compras de equipamentos,229.83,Compras de equipamentos - pagamento referente a Jun 2025
+03/06/2025  02:03:11,Água,2785.41,Água - pagamento referente a Jun 2025
+06/11/2024  13:28:35,Materiais de Escritório,411.07,Materiais de Escritório - pagamento referente a Nov 2024
+19/02/2025  03:21:19,Embalagem,223.06,Embalagem - pagamento referente a Feb 2025
+10/01/2024  06:03:37,Materiais de Escritório,390.41,Materiais de Escritório - pagamento referente a Jan 2024
+20/05/2024  00:03:50,Embalagem,245.58,Embalagem - pagamento referente a May 2024
+20/07/2024  17:01:40,Compras de equipamentos,318.52,Compras de equipamentos - pagamento referente a Jul 2024
+29/08/2025  02:24:39,Vale Transporte,419.63,Vale Transporte - pagamento referente a Aug 2025
+02/03/2025  14:03:58,Expedição,496.45,Expedição - pagamento referente a Mar 2025
+21/09/2025  10:07:06,Compras de equipamentos,549.01,Compras de equipamentos - pagamento referente a Sep 2025
+26/09/2025  20:48:22,Fretes,111.65,Fretes - pagamento referente a Sep 2025
+28/04/2024  17:02:39,Energia,1952.38,Energia - pagamento referente a Apr 2024
+13/08/2024  09:29:04,Folha de pagamento,3527.53,Folha de pagamento - pagamento referente a Aug 2024
+26/02/2025  08:03:51,Devoluções e ressarcimento,592.32,Devoluções e ressarcimento - pagamento referente a Feb 2025
+01/01/2024  18:35:14,Manutenção predial,564.28,Manutenção predial - pagamento referente a Jan 2024
+04/03/2024  17:48:26,Eventos,65.54,Eventos - pagamento referente a Mar 2024
+16/09/2024  20:12:48,Vale Transporte,1663.21,Vale Transporte - pagamento referente a Sep 2024
+05/07/2024  01:22:34,Embalagem,467.42,Embalagem - pagamento referente a Jul 2024
+10/03/2025  08:53:31,Manutenção de equipamento,332.03,Manutenção de equipamento - pagamento referente a Mar 2025
+24/09/2025  06:01:44,Serviços de terceiros,414.99,Serviços de terceiros - pagamento referente a Sep 2025
+14/05/2024  21:06:31,Fretes,5.0,Fretes - pagamento referente a May 2024
+07/03/2024  06:47:30,Água,1003.41,Água - pagamento referente a Mar 2024
+23/02/2025  05:58:51,Embalagem,5.0,Embalagem - pagamento referente a Feb 2025
+05/05/2024  17:16:51,Internet,2016.8,Internet - pagamento referente a May 2024
+28/09/2024  23:46:03,Contabilidade,2805.03,Contabilidade - pagamento referente a Sep 2024
+26/05/2025  04:08:26,Eventos,144.06,Eventos - pagamento referente a May 2025
+20/04/2025  22:08:26,Sistemas,2706.93,Sistemas - pagamento referente a Apr 2025
+10/04/2025  08:29:03,Sistemas,1979.56,Sistemas - pagamento referente a Apr 2025
+09/03/2025  13:57:24,Expedição,49.59,Expedição - pagamento referente a Mar 2025
+07/03/2025  13:47:31,Compras de equipamentos,188.45,Compras de equipamentos - pagamento referente a Mar 2025
+06/02/2025  11:13:58,Internet,1608.45,Internet - pagamento referente a Feb 2025
+27/09/2025  12:42:31,Compras de equipamentos,219.33,Compras de equipamentos - pagamento referente a Sep 2025
+14/01/2024  21:37:36,Compras de equipamentos,505.48,Compras de equipamentos - pagamento referente a Jan 2024
+05/08/2025  20:33:34,Embalagem,302.59,Embalagem - pagamento referente a Aug 2025
+25/04/2024  20:45:55,Sistemas,1797.95,Sistemas - pagamento referente a Apr 2024
+29/05/2025  05:31:08,Companhia de mídia,483.16,Companhia de mídia - pagamento referente a May 2025
+04/05/2024  21:23:34,Materiais de Limpeza,619.42,Materiais de Limpeza - pagamento referente a May 2024
+04/01/2024  07:14:04,Embalagem,184.84,Embalagem - pagamento referente a Jan 2024
+24/01/2025  19:15:29,Expedição,144.21,Expedição - pagamento referente a Jan 2025
+21/01/2024  09:29:20,Energia,2073.41,Energia - pagamento referente a Jan 2024
+06/09/2025  02:33:09,Fretes,5.0,Fretes - pagamento referente a Sep 2025
+29/06/2025  17:30:41,Contabilidade,3091.31,Contabilidade - pagamento referente a Jun 2025
+08/01/2025  17:22:40,Aluguel,3136.4,Aluguel - pagamento referente a Jan 2025
+15/03/2025  08:13:29,Vale Transporte,1775.12,Vale Transporte - pagamento referente a Mar 2025
+14/01/2025  22:25:05,Materiais de Limpeza,566.37,Materiais de Limpeza - pagamento referente a Jan 2025
+09/08/2024  20:13:49,Manutenção predial,252.42,Manutenção predial - pagamento referente a Aug 2024
+16/08/2025  00:11:26,Devoluções e ressarcimento,439.45,Devoluções e ressarcimento - pagamento referente a Aug 2025
+03/06/2024  20:55:54,Energia,2273.4,Energia - pagamento referente a Jun 2024
+15/01/2024  23:03:43,Materiais de Limpeza,90.2,Materiais de Limpeza - pagamento referente a Jan 2024
+24/06/2025  09:08:29,Compras de equipamentos,192.65,Compras de equipamentos - pagamento referente a Jun 2025
+23/12/2024  04:32:24,Companhia de mídia,346.69,Companhia de mídia - pagamento referente a Dec 2024
+16/08/2025  17:14:51,Energia,1063.91,Energia - pagamento referente a Aug 2025
+25/10/2024  17:30:15,Alimentação,3076.34,Alimentação - pagamento referente a Oct 2024
+23/07/2024  16:54:07,Vale Transporte,2054.01,Vale Transporte - pagamento referente a Jul 2024
+22/01/2024  22:31:09,Segurança e Monitoramento,2802.83,Segurança e Monitoramento - pagamento referente a Jan 2024
+12/09/2025  23:08:16,Folha de pagamento,1457.83,Folha de pagamento - pagamento referente a Sep 2025
+07/10/2024  10:19:58,Aluguel,1658.5,Aluguel - pagamento referente a Oct 2024
+28/01/2025  21:56:19,Segurança e Monitoramento,3004.6,Segurança e Monitoramento - pagamento referente a Jan 2025
+18/09/2025  22:31:12,Manutenção predial,334.13,Manutenção predial - pagamento referente a Sep 2025
+05/07/2025  19:34:52,Aluguel,2455.19,Aluguel - pagamento referente a Jul 2025
+12/04/2025  21:20:27,Sistemas,2434.88,Sistemas - pagamento referente a Apr 2025
+20/05/2024  16:18:29,Compras de equipamentos,457.09,Compras de equipamentos - pagamento referente a May 2024
+14/07/2025  11:55:02,Compras de equipamentos,205.22,Compras de equipamentos - pagamento referente a Jul 2025
+14/07/2025  11:06:09,Companhia de mídia,5.0,Companhia de mídia - pagamento referente a Jul 2025
+18/01/2025  22:47:41,Companhia de mídia,19.32,Companhia de mídia - pagamento referente a Jan 2025
+09/09/2025  19:58:55,Materiais de Escritório,346.17,Materiais de Escritório - pagamento referente a Sep 2025
+12/06/2025  12:14:57,Manutenção predial,331.31,Manutenção predial - pagamento referente a Jun 2025
+06/09/2025  17:22:20,Fretes,208.67,Fretes - pagamento referente a Sep 2025
+30/05/2024  22:19:41,Companhia de mídia,376.82,Companhia de mídia - pagamento referente a May 2024
+26/04/2025  01:24:56,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Apr 2025
+03/04/2024  10:54:43,Materiais de Escritório,493.66,Materiais de Escritório - pagamento referente a Apr 2024
+21/03/2025  13:32:01,Manutenção de equipamento,352.1,Manutenção de equipamento - pagamento referente a Mar 2025
+06/04/2025  03:23:45,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Apr 2025
+24/05/2025  04:06:24,Manutenção de equipamento,577.05,Manutenção de equipamento - pagamento referente a May 2025
+18/03/2024  16:22:27,Materiais de Escritório,5.0,Materiais de Escritório - pagamento referente a Mar 2024
+20/06/2024  19:32:24,Fretes,769.04,Fretes - pagamento referente a Jun 2024
+22/03/2025  16:52:39,Serviços de terceiros,749.42,Serviços de terceiros - pagamento referente a Mar 2025
+16/03/2024  06:22:51,Água,1314.27,Água - pagamento referente a Mar 2024
+15/11/2024  10:27:52,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Nov 2024
+04/11/2024  04:19:00,Serviços de terceiros,562.25,Serviços de terceiros - pagamento referente a Nov 2024
+13/03/2025  04:49:54,Compras de equipamentos,5.0,Compras de equipamentos - pagamento referente a Mar 2025
+23/03/2024  17:08:17,Folha de pagamento,2122.98,Folha de pagamento - pagamento referente a Mar 2024
+11/02/2024  08:55:04,Água,1870.97,Água - pagamento referente a Feb 2024
+11/04/2024  19:44:25,Materiais de Limpeza,410.95,Materiais de Limpeza - pagamento referente a Apr 2024
+13/11/2024  22:50:40,Contabilidade,2570.4,Contabilidade - pagamento referente a Nov 2024
+31/08/2025  22:34:11,Manutenção predial,5.0,Manutenção predial - pagamento referente a Aug 2025
+04/06/2024  12:01:20,Internet,2078.14,Internet - pagamento referente a Jun 2024
+17/06/2025  02:25:23,Compras de equipamentos,330.57,Compras de equipamentos - pagamento referente a Jun 2025
+28/05/2025  10:45:47,Materiais de Escritório,252.33,Materiais de Escritório - pagamento referente a May 2025
+08/01/2024  01:15:56,Manutenção predial,5.0,Manutenção predial - pagamento referente a Jan 2024
+01/06/2025  18:38:25,Materiais de Escritório,284.35,Materiais de Escritório - pagamento referente a Jun 2025
+10/01/2024  13:44:46,Materiais de Escritório,282.0,Materiais de Escritório - pagamento referente a Jan 2024
+27/12/2024  01:48:46,Fretes,330.5,Fretes - pagamento referente a Dec 2024
+12/07/2024  02:22:15,Manutenção de equipamento,277.72,Manutenção de equipamento - pagamento referente a Jul 2024
+16/09/2024  16:24:20,Internet,2668.55,Internet - pagamento referente a Sep 2024
+22/06/2025  18:54:03,Materiais de Escritório,52.85,Materiais de Escritório - pagamento referente a Jun 2025
+26/03/2025  09:55:34,Expedição,349.13,Expedição - pagamento referente a Mar 2025
+21/04/2025  00:19:26,Manutenção de equipamento,290.37,Manutenção de equipamento - pagamento referente a Apr 2025
+20/05/2025  21:47:35,Alimentação,3306.75,Alimentação - pagamento referente a May 2025
+23/08/2024  22:59:44,Materiais de Limpeza,444.14,Materiais de Limpeza - pagamento referente a Aug 2024
+03/04/2025  01:19:18,Fretes,235.66,Fretes - pagamento referente a Apr 2025
+27/09/2024  21:15:02,Manutenção predial,137.04,Manutenção predial - pagamento referente a Sep 2024
+05/11/2024  08:19:17,Devoluções e ressarcimento,381.53,Devoluções e ressarcimento - pagamento referente a Nov 2024
+05/04/2024  02:30:50,Água,1433.86,Água - pagamento referente a Apr 2024
+27/06/2025  02:47:43,Contabilidade,1449.48,Contabilidade - pagamento referente a Jun 2025
+17/07/2025  16:44:14,Eventos,609.02,Eventos - pagamento referente a Jul 2025
+10/02/2025  23:44:18,Contabilidade,2223.22,Contabilidade - pagamento referente a Feb 2025
+20/01/2025  01:19:42,Manutenção de equipamento,169.28,Manutenção de equipamento - pagamento referente a Jan 2025
+19/04/2024  10:55:06,Fretes,5.0,Fretes - pagamento referente a Apr 2024
+05/04/2024  15:02:08,Compras de equipamentos,558.12,Compras de equipamentos - pagamento referente a Apr 2024
+27/04/2025  18:42:31,Contabilidade,2208.54,Contabilidade - pagamento referente a Apr 2025
+31/08/2025  14:26:10,Internet,3192.58,Internet - pagamento referente a Aug 2025
+26/05/2025  00:33:06,Aluguel,2160.88,Aluguel - pagamento referente a May 2025
+15/10/2024  11:09:17,Segurança e Monitoramento,1004.28,Segurança e Monitoramento - pagamento referente a Oct 2024
+19/12/2024  08:54:32,Manutenção de equipamento,458.1,Manutenção de equipamento - pagamento referente a Dec 2024
+30/09/2024  05:26:56,Internet,2696.9,Internet - pagamento referente a Sep 2024
+25/05/2024  11:32:37,Sistemas,2476.13,Sistemas - pagamento referente a May 2024
+11/03/2024  05:03:16,Devoluções e ressarcimento,440.2,Devoluções e ressarcimento - pagamento referente a Mar 2024
+29/07/2025  21:41:27,Compras de equipamentos,707.1,Compras de equipamentos - pagamento referente a Jul 2025
+23/04/2025  11:19:08,Sistemas,2490.81,Sistemas - pagamento referente a Apr 2025
+23/04/2024  07:36:24,Alimentação,991.29,Alimentação - pagamento referente a Apr 2024
+06/09/2025  15:05:43,Eventos,374.82,Eventos - pagamento referente a Sep 2025
+24/05/2024  06:27:28,Alimentação,2060.64,Alimentação - pagamento referente a May 2024
+13/04/2025  16:37:19,Internet,1181.77,Internet - pagamento referente a Apr 2025
+31/08/2024  18:09:10,Manutenção de equipamento,84.68,Manutenção de equipamento - pagamento referente a Aug 2024
+04/08/2024  08:28:15,Contabilidade,1308.81,Contabilidade - pagamento referente a Aug 2024
+06/11/2024  21:37:42,Serviços de terceiros,168.87,Serviços de terceiros - pagamento referente a Nov 2024
+19/03/2024  09:30:30,Fretes,389.45,Fretes - pagamento referente a Mar 2024
+19/05/2024  10:01:11,Água,2259.33,Água - pagamento referente a May 2024
+17/06/2024  17:53:42,Expedição,400.43,Expedição - pagamento referente a Jun 2024
+20/12/2024  04:36:24,Companhia de mídia,111.15,Companhia de mídia - pagamento referente a Dec 2024
+19/07/2024  07:45:09,Vale Transporte,3302.89,Vale Transporte - pagamento referente a Jul 2024
+05/11/2024  02:10:27,Água,999.11,Água - pagamento referente a Nov 2024
+26/08/2025  15:19:16,Materiais de Escritório,5.0,Materiais de Escritório - pagamento referente a Aug 2025
+13/03/2024  14:58:28,Vale Transporte,2411.03,Vale Transporte - pagamento referente a Mar 2024
+27/04/2025  05:55:02,Vale Transporte,2938.18,Vale Transporte - pagamento referente a Apr 2025
+23/11/2024  02:05:17,Contabilidade,1022.3,Contabilidade - pagamento referente a Nov 2024
+02/05/2025  12:24:26,Manutenção de equipamento,111.43,Manutenção de equipamento - pagamento referente a May 2025
+13/07/2025  20:13:44,Embalagem,358.45,Embalagem - pagamento referente a Jul 2025
+23/08/2025  05:03:13,Água,1755.82,Água - pagamento referente a Aug 2025
+22/06/2024  18:41:40,Eventos,90.07,Eventos - pagamento referente a Jun 2024
+29/04/2025  14:39:17,Energia,50.0,Energia - pagamento referente a Apr 2025
+09/08/2025  11:23:35,Materiais de Escritório,253.26,Materiais de Escritório - pagamento referente a Aug 2025
+17/05/2025  23:03:35,Companhia de mídia,5.0,Companhia de mídia - pagamento referente a May 2025
+07/08/2025  18:36:41,Materiais de Limpeza,282.38,Materiais de Limpeza - pagamento referente a Aug 2025
+04/04/2025  21:33:17,Eventos,256.84,Eventos - pagamento referente a Apr 2025
+30/06/2025  01:35:16,Materiais de Escritório,355.98,Materiais de Escritório - pagamento referente a Jun 2025
+23/05/2025  23:32:19,Materiais de Escritório,778.51,Materiais de Escritório - pagamento referente a May 2025
+07/11/2024  22:56:36,Devoluções e ressarcimento,5.0,Devoluções e ressarcimento - pagamento referente a Nov 2024
+10/09/2025  08:34:23,Fretes,57.1,Fretes - pagamento referente a Sep 2025
+11/01/2025  02:35:29,Aluguel,1489.81,Aluguel - pagamento referente a Jan 2025
+03/08/2024  09:25:45,Devoluções e ressarcimento,61.11,Devoluções e ressarcimento - pagamento referente a Aug 2024
+10/06/2025  19:04:57,Segurança e Monitoramento,743.6,Segurança e Monitoramento - pagamento referente a Jun 2025
+10/12/2024  04:11:20,Fretes,69.19,Fretes - pagamento referente a Dec 2024
+16/01/2025  14:32:23,Folha de pagamento,2187.37,Folha de pagamento - pagamento referente a Jan 2025
+11/03/2024  11:44:29,Água,1642.79,Água - pagamento referente a Mar 2024
+27/07/2024  14:56:22,Aluguel,1800.83,Aluguel - pagamento referente a Jul 2024
+18/07/2025  17:30:16,Vale Transporte,2982.14,Vale Transporte - pagamento referente a Jul 2025
+31/03/2025  11:35:41,Eventos,157.21,Eventos - pagamento referente a Mar 2025
+24/10/2024  21:35:13,Devoluções e ressarcimento,260.5,Devoluções e ressarcimento - pagamento referente a Oct 2024
+06/09/2025  01:12:06,Devoluções e ressarcimento,5.0,Devoluções e ressarcimento - pagamento referente a Sep 2025
+14/07/2024  01:25:32,Expedição,542.89,Expedição - pagamento referente a Jul 2024
+15/08/2025  09:23:26,Água,558.42,Água - pagamento referente a Aug 2025
+08/09/2024  01:42:57,Compras de equipamentos,384.4,Compras de equipamentos - pagamento referente a Sep 2024
+12/05/2025  22:28:07,Sistemas,1942.72,Sistemas - pagamento referente a May 2025
+26/11/2024  10:55:24,Aluguel,1135.15,Aluguel - pagamento referente a Nov 2024
+19/07/2025  00:16:11,Companhia de mídia,348.01,Companhia de mídia - pagamento referente a Jul 2025
+22/10/2024  16:14:26,Vale Transporte,2580.61,Vale Transporte - pagamento referente a Oct 2024
+26/07/2024  04:04:45,Fretes,171.53,Fretes - pagamento referente a Jul 2024
+04/04/2025  03:31:12,Eventos,5.0,Eventos - pagamento referente a Apr 2025
+01/04/2025  21:05:58,Sistemas,2395.22,Sistemas - pagamento referente a Apr 2025
+03/08/2024  01:41:49,Manutenção predial,40.69,Manutenção predial - pagamento referente a Aug 2024
+17/11/2024  08:52:22,Água,2158.47,Água - pagamento referente a Nov 2024
+26/11/2024  10:36:54,Sistemas,1796.02,Sistemas - pagamento referente a Nov 2024
+02/06/2024  01:23:53,Vale Transporte,2120.32,Vale Transporte - pagamento referente a Jun 2024
+05/08/2025  09:00:00,Compras de equipamentos,435.37,Compras de equipamentos - pagamento referente a Aug 2025
+15/06/2025  20:35:04,Vale Transporte,1117.13,Vale Transporte - pagamento referente a Jun 2025
+16/01/2025  12:07:15,Devoluções e ressarcimento,190.07,Devoluções e ressarcimento - pagamento referente a Jan 2025
+18/10/2024  12:52:14,Alimentação,1380.97,Alimentação - pagamento referente a Oct 2024
+09/01/2025  02:36:23,Sistemas,2133.16,Sistemas - pagamento referente a Jan 2025
+04/04/2025  01:00:54,Contabilidade,1703.51,Contabilidade - pagamento referente a Apr 2025
+01/09/2025  06:41:31,Energia,2444.98,Energia - pagamento referente a Sep 2025
+20/08/2025  20:25:17,Fretes,604.69,Fretes - pagamento referente a Aug 2025
+16/07/2025  07:48:21,Fretes,539.18,Fretes - pagamento referente a Jul 2025
+02/04/2025  21:06:41,Aluguel,2837.68,Aluguel - pagamento referente a Apr 2025
+14/07/2025  07:51:30,Serviços de terceiros,249.1,Serviços de terceiros - pagamento referente a Jul 2025
+31/05/2025  10:23:52,Folha de pagamento,2191.03,Folha de pagamento - pagamento referente a May 2025
+22/06/2025  05:48:32,Contabilidade,2039.09,Contabilidade - pagamento referente a Jun 2025
+03/02/2025  22:42:40,Embalagem,43.37,Embalagem - pagamento referente a Feb 2025
+05/09/2025  11:49:05,Alimentação,2593.68,Alimentação - pagamento referente a Sep 2025
+24/03/2025  15:58:17,Expedição,289.96,Expedição - pagamento referente a Mar 2025
+31/03/2024  23:45:07,Internet,1343.45,Internet - pagamento referente a Mar 2024
+08/07/2024  09:07:03,Alimentação,1784.47,Alimentação - pagamento referente a Jul 2024
+30/06/2025  16:06:18,Manutenção de equipamento,909.94,Manutenção de equipamento - pagamento referente a Jun 2025
+02/04/2024  10:50:03,Vale Transporte,3305.93,Vale Transporte - pagamento referente a Apr 2024
+13/02/2025  22:22:30,Materiais de Escritório,577.18,Materiais de Escritório - pagamento referente a Feb 2025
+13/01/2024  00:24:16,Fretes,639.06,Fretes - pagamento referente a Jan 2024
+20/02/2025  06:51:08,Embalagem,311.61,Embalagem - pagamento referente a Feb 2025
+07/05/2024  14:28:15,Expedição,329.33,Expedição - pagamento referente a May 2024
+04/05/2025  12:13:29,Segurança e Monitoramento,2062.91,Segurança e Monitoramento - pagamento referente a May 2025
+04/07/2025  13:08:16,Devoluções e ressarcimento,46.31,Devoluções e ressarcimento - pagamento referente a Jul 2025
+15/06/2025  05:11:36,Manutenção predial,310.15,Manutenção predial - pagamento referente a Jun 2025
+30/08/2025  08:35:28,Contabilidade,812.08,Contabilidade - pagamento referente a Aug 2025
+21/03/2024  14:45:09,Companhia de mídia,385.29,Companhia de mídia - pagamento referente a Mar 2024
+14/03/2025  06:52:40,Contabilidade,1934.28,Contabilidade - pagamento referente a Mar 2025
+27/07/2024  04:35:46,Eventos,5.0,Eventos - pagamento referente a Jul 2024
+06/03/2025  08:25:09,Eventos,660.03,Eventos - pagamento referente a Mar 2025
+01/06/2025  14:45:21,Folha de pagamento,3801.95,Folha de pagamento - pagamento referente a Jun 2025
+27/12/2024  06:51:03,Manutenção predial,753.11,Manutenção predial - pagamento referente a Dec 2024
+11/02/2025  19:14:40,Manutenção predial,188.39,Manutenção predial - pagamento referente a Feb 2025
+17/09/2025  21:31:49,Materiais de Escritório,596.43,Materiais de Escritório - pagamento referente a Sep 2025
+13/06/2024  22:40:26,Vale Transporte,2010.07,Vale Transporte - pagamento referente a Jun 2024
+08/11/2024  18:53:54,Serviços de terceiros,5.0,Serviços de terceiros - pagamento referente a Nov 2024
+20/11/2024  12:49:20,Aluguel,3017.24,Aluguel - pagamento referente a Nov 2024
+20/07/2025  01:56:50,Materiais de Escritório,719.43,Materiais de Escritório - pagamento referente a Jul 2025
+03/06/2024  05:49:40,Devoluções e ressarcimento,847.45,Devoluções e ressarcimento - pagamento referente a Jun 2024
+17/01/2024  19:12:09,Expedição,505.64,Expedição - pagamento referente a Jan 2024
+12/04/2025  10:11:07,Serviços de terceiros,587.19,Serviços de terceiros - pagamento referente a Apr 2025
+08/07/2025  19:12:29,Serviços de terceiros,398.33,Serviços de terceiros - pagamento referente a Jul 2025
+14/04/2025  21:08:21,Devoluções e ressarcimento,399.81,Devoluções e ressarcimento - pagamento referente a Apr 2025
+05/02/2025  05:46:27,Materiais de Limpeza,354.79,Materiais de Limpeza - pagamento referente a Feb 2025
+16/06/2025  17:06:11,Materiais de Limpeza,149.66,Materiais de Limpeza - pagamento referente a Jun 2025
+24/05/2025  20:35:24,Alimentação,1082.92,Alimentação - pagamento referente a May 2025
+14/03/2024  23:37:17,Embalagem,303.25,Embalagem - pagamento referente a Mar 2024
+29/06/2025  17:12:16,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Jun 2025
+16/03/2025  18:38:30,Folha de pagamento,1928.21,Folha de pagamento - pagamento referente a Mar 2025
+25/11/2024  08:06:08,Energia,2568.77,Energia - pagamento referente a Nov 2024
+30/01/2025  04:11:59,Folha de pagamento,2539.86,Folha de pagamento - pagamento referente a Jan 2025
+08/01/2024  08:25:08,Manutenção de equipamento,225.25,Manutenção de equipamento - pagamento referente a Jan 2024
+18/01/2024  00:05:59,Alimentação,1114.93,Alimentação - pagamento referente a Jan 2024
+01/06/2024  15:47:27,Internet,3226.19,Internet - pagamento referente a Jun 2024
+14/04/2024  15:30:15,Fretes,271.32,Fretes - pagamento referente a Apr 2024
+21/01/2024  03:03:25,Embalagem,222.7,Embalagem - pagamento referente a Jan 2024
+30/07/2025  19:27:05,Energia,2431.0,Energia - pagamento referente a Jul 2025
+03/07/2024  05:17:28,Compras de equipamentos,815.19,Compras de equipamentos - pagamento referente a Jul 2024
+24/01/2025  05:07:00,Contabilidade,1663.85,Contabilidade - pagamento referente a Jan 2025
+15/11/2024  18:15:44,Alimentação,1541.07,Alimentação - pagamento referente a Nov 2024
+06/08/2024  14:26:30,Fretes,5.0,Fretes - pagamento referente a Aug 2024
+16/11/2024  19:39:12,Fretes,169.32,Fretes - pagamento referente a Nov 2024
+19/05/2025  21:45:26,Manutenção de equipamento,900.85,Manutenção de equipamento - pagamento referente a May 2025
+30/11/2024  02:19:10,Manutenção predial,207.14,Manutenção predial - pagamento referente a Nov 2024
+22/03/2025  00:15:23,Devoluções e ressarcimento,288.07,Devoluções e ressarcimento - pagamento referente a Mar 2025
+09/01/2025  03:57:36,Manutenção de equipamento,50.41,Manutenção de equipamento - pagamento referente a Jan 2025
+09/04/2024  00:18:46,Vale Transporte,1732.4,Vale Transporte - pagamento referente a Apr 2024
+07/02/2024  11:27:04,Manutenção de equipamento,915.81,Manutenção de equipamento - pagamento referente a Feb 2024
+10/01/2025  20:03:50,Alimentação,1850.5,Alimentação - pagamento referente a Jan 2025
+18/05/2025  19:38:30,Manutenção de equipamento,250.91,Manutenção de equipamento - pagamento referente a May 2025
+20/03/2024  19:14:49,Compras de equipamentos,428.76,Compras de equipamentos - pagamento referente a Mar 2024
+22/09/2025  17:52:24,Segurança e Monitoramento,2429.32,Segurança e Monitoramento - pagamento referente a Sep 2025
+21/02/2025  09:31:26,Materiais de Escritório,761.68,Materiais de Escritório - pagamento referente a Feb 2025
+24/02/2024  09:32:19,Manutenção de equipamento,375.39,Manutenção de equipamento - pagamento referente a Feb 2024
+23/01/2024  09:25:42,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Jan 2024
+08/04/2024  23:05:27,Sistemas,1180.49,Sistemas - pagamento referente a Apr 2024
+19/01/2024  15:32:58,Compras de equipamentos,390.35,Compras de equipamentos - pagamento referente a Jan 2024
+06/01/2025  11:08:47,Água,1265.08,Água - pagamento referente a Jan 2025
+10/11/2024  21:52:54,Energia,1562.51,Energia - pagamento referente a Nov 2024
+15/05/2024  16:14:39,Folha de pagamento,1345.42,Folha de pagamento - pagamento referente a May 2024
+23/07/2025  01:10:24,Materiais de Limpeza,439.58,Materiais de Limpeza - pagamento referente a Jul 2025
+06/06/2024  19:09:48,Materiais de Limpeza,345.84,Materiais de Limpeza - pagamento referente a Jun 2024
+08/02/2024  00:42:12,Serviços de terceiros,99.43,Serviços de terceiros - pagamento referente a Feb 2024
+18/10/2024  01:59:57,Energia,1784.1,Energia - pagamento referente a Oct 2024
+10/07/2025  19:56:34,Companhia de mídia,5.0,Companhia de mídia - pagamento referente a Jul 2025
+19/06/2025  18:23:51,Embalagem,54.38,Embalagem - pagamento referente a Jun 2025
+15/06/2025  14:22:49,Vale Transporte,932.78,Vale Transporte - pagamento referente a Jun 2025
+14/08/2024  07:55:57,Internet,1335.24,Internet - pagamento referente a Aug 2024
+16/06/2025  05:34:14,Contabilidade,2475.8,Contabilidade - pagamento referente a Jun 2025
+01/07/2024  12:55:30,Folha de pagamento,1973.84,Folha de pagamento - pagamento referente a Jul 2024
+20/06/2025  02:53:17,Contabilidade,2255.83,Contabilidade - pagamento referente a Jun 2025
+12/12/2024  17:17:38,Materiais de Escritório,476.94,Materiais de Escritório - pagamento referente a Dec 2024
+15/12/2024  08:22:55,Energia,2919.42,Energia - pagamento referente a Dec 2024
+25/09/2025  20:36:22,Manutenção de equipamento,434.57,Manutenção de equipamento - pagamento referente a Sep 2025
+03/08/2024  04:20:41,Energia,2162.77,Energia - pagamento referente a Aug 2024
+05/06/2024  12:34:45,Alimentação,1912.99,Alimentação - pagamento referente a Jun 2024
+21/05/2024  02:40:52,Fretes,524.9,Fretes - pagamento referente a May 2024
+08/02/2025  11:20:10,Materiais de Limpeza,568.41,Materiais de Limpeza - pagamento referente a Feb 2025
+28/06/2025  16:40:01,Manutenção predial,295.09,Manutenção predial - pagamento referente a Jun 2025
+03/11/2024  19:18:51,Alimentação,2391.5,Alimentação - pagamento referente a Nov 2024
+24/06/2025  12:50:51,Materiais de Escritório,513.35,Materiais de Escritório - pagamento referente a Jun 2025
+25/01/2025  15:49:04,Aluguel,811.55,Aluguel - pagamento referente a Jan 2025
+10/07/2025  06:02:50,Eventos,116.12,Eventos - pagamento referente a Jul 2025
+18/03/2024  00:33:12,Energia,2385.98,Energia - pagamento referente a Mar 2024
+03/03/2025  12:35:25,Materiais de Escritório,385.68,Materiais de Escritório - pagamento referente a Mar 2025
+22/11/2024  01:11:59,Embalagem,5.0,Embalagem - pagamento referente a Nov 2024
+15/01/2024  00:46:56,Água,3481.82,Água - pagamento referente a Jan 2024
+04/08/2025  08:39:09,Energia,2136.33,Energia - pagamento referente a Aug 2025
+06/03/2025  05:13:51,Segurança e Monitoramento,998.77,Segurança e Monitoramento - pagamento referente a Mar 2025
+23/02/2024  00:57:48,Sistemas,2054.85,Sistemas - pagamento referente a Feb 2024
+28/06/2024  10:36:27,Manutenção predial,356.02,Manutenção predial - pagamento referente a Jun 2024
+28/01/2024  12:57:03,Internet,2650.02,Internet - pagamento referente a Jan 2024
+25/07/2025  12:22:42,Serviços de terceiros,26.92,Serviços de terceiros - pagamento referente a Jul 2025
+29/01/2025  14:55:18,Vale Transporte,3964.24,Vale Transporte - pagamento referente a Jan 2025
+23/12/2024  06:13:17,Energia,2204.82,Energia - pagamento referente a Dec 2024
+25/12/2024  07:19:55,Folha de pagamento,1923.15,Folha de pagamento - pagamento referente a Dec 2024
+30/10/2024  01:35:26,Companhia de mídia,172.2,Companhia de mídia - pagamento referente a Oct 2024
+26/03/2024  18:50:02,Expedição,111.57,Expedição - pagamento referente a Mar 2024
+06/10/2024  04:49:41,Materiais de Limpeza,188.93,Materiais de Limpeza - pagamento referente a Oct 2024
+27/03/2025  19:16:20,Energia,2893.84,Energia - pagamento referente a Mar 2025
+27/10/2024  00:48:01,Vale Transporte,2330.75,Vale Transporte - pagamento referente a Oct 2024
+13/07/2025  18:12:33,Aluguel,1746.87,Aluguel - pagamento referente a Jul 2025
+17/07/2024  13:07:49,Vale Transporte,368.61,Vale Transporte - pagamento referente a Jul 2024
+31/01/2024  06:59:34,Segurança e Monitoramento,1759.12,Segurança e Monitoramento - pagamento referente a Jan 2024
+30/09/2024  17:44:17,Contabilidade,2934.23,Contabilidade - pagamento referente a Sep 2024
+01/03/2025  15:58:08,Materiais de Limpeza,5.0,Materiais de Limpeza - pagamento referente a Mar 2025
+09/11/2024  01:59:04,Manutenção de equipamento,572.88,Manutenção de equipamento - pagamento referente a Nov 2024
+27/08/2024  03:33:09,Vale Transporte,1134.76,Vale Transporte - pagamento referente a Aug 2024
+31/05/2024  23:44:34,Companhia de mídia,159.95,Companhia de mídia - pagamento referente a May 2024
+07/09/2025  16:06:06,Alimentação,2045.61,Alimentação - pagamento referente a Sep 2025
+27/05/2025  07:54:29,Embalagem,235.24,Embalagem - pagamento referente a May 2025
+05/08/2025  16:53:10,Aluguel,2349.55,Aluguel - pagamento referente a Aug 2025
+19/01/2025  20:48:53,Materiais de Limpeza,209.29,Materiais de Limpeza - pagamento referente a Jan 2025
+22/09/2025  02:02:53,Contabilidade,1394.56,Contabilidade - pagamento referente a Sep 2025
+08/01/2025  10:15:26,Embalagem,395.6,Embalagem - pagamento referente a Jan 2025
+14/07/2024  20:50:39,Fretes,479.39,Fretes - pagamento referente a Jul 2024
+11/03/2025  08:33:29,Aluguel,2365.4,Aluguel - pagamento referente a Mar 2025
+05/03/2025  01:27:05,Manutenção de equipamento,660.94,Manutenção de equipamento - pagamento referente a Mar 2025
+11/05/2025  17:03:00,Água,1948.69,Água - pagamento referente a May 2025
+21/05/2024  00:03:30,Serviços de terceiros,48.5,Serviços de terceiros - pagamento referente a May 2024
+17/07/2025  03:35:04,Compras de equipamentos,222.72,Compras de equipamentos - pagamento referente a Jul 2025
+10/06/2025  19:05:18,Fretes,646.07,Fretes - pagamento referente a Jun 2025
+14/01/2025  11:34:43,Internet,2825.48,Internet - pagamento referente a Jan 2025
+02/05/2025  11:52:28,Sistemas,1085.6,Sistemas - pagamento referente a May 2025
+12/01/2025  06:18:36,Vale Transporte,1575.2,Vale Transporte - pagamento referente a Jan 2025
+24/02/2024  10:27:38,Compras de equipamentos,281.39,Compras de equipamentos - pagamento referente a Feb 2024
+12/01/2025  10:08:24,Manutenção predial,349.14,Manutenção predial - pagamento referente a Jan 2025
+22/03/2025  19:09:07,Fretes,388.01,Fretes - pagamento referente a Mar 2025
+25/07/2025  07:58:54,Energia,1480.58,Energia - pagamento referente a Jul 2025
+21/07/2024  12:23:16,Aluguel,346.05,Aluguel - pagamento referente a Jul 2024
+09/01/2024  21:31:13,Materiais de Escritório,203.73,Materiais de Escritório - pagamento referente a Jan 2024
+12/09/2024  14:41:16,Devoluções e ressarcimento,321.65,Devoluções e ressarcimento - pagamento referente a Sep 2024
+06/12/2024  19:08:50,Segurança e Monitoramento,1498.43,Segurança e Monitoramento - pagamento referente a Dec 2024
+12/04/2024  11:27:09,Alimentação,855.89,Alimentação - pagamento referente a Apr 2024
+09/08/2024  06:40:35,Água,1993.62,Água - pagamento referente a Aug 2024
+03/05/2024  02:20:38,Contabilidade,2926.49,Contabilidade - pagamento referente a May 2024
+29/11/2024  16:58:02,Alimentação,3203.19,Alimentação - pagamento referente a Nov 2024
+03/08/2025  05:21:14,Embalagem,449.98,Embalagem - pagamento referente a Aug 2025
+17/11/2024  05:43:24,Internet,1752.36,Internet - pagamento referente a Nov 2024
+17/01/2025  16:50:52,Água,924.44,Água - pagamento referente a Jan 2025
+21/10/2024  11:07:11,Materiais de Escritório,517.4,Materiais de Escritório - pagamento referente a Oct 2024
+02/07/2025  05:40:31,Fretes,272.19,Fretes - pagamento referente a Jul 2025
+23/09/2024  06:44:45,Devoluções e ressarcimento,100.78,Devoluções e ressarcimento - pagamento referente a Sep 2024
+25/05/2025  05:44:37,Internet,1888.33,Internet - pagamento referente a May 2025
+28/03/2024  18:27:19,Manutenção predial,428.76,Manutenção predial - pagamento referente a Mar 2024
+20/05/2025  19:56:20,Compras de equipamentos,40.02,Compras de equipamentos - pagamento referente a May 2025
+28/03/2024  07:53:59,Energia,3162.83,Energia - pagamento referente a Mar 2024
+02/10/2024  02:12:51,Manutenção predial,682.39,Manutenção predial - pagamento referente a Oct 2024
+30/03/2024  09:36:43,Serviços de terceiros,403.2,Serviços de terceiros - pagamento referente a Mar 2024
+28/12/2024  22:39:40,Companhia de mídia,742.7,Companhia de mídia - pagamento referente a Dec 2024
+15/09/2024  20:34:33,Devoluções e ressarcimento,47.98,Devoluções e ressarcimento - pagamento referente a Sep 2024
+12/06/2024  23:52:41,Contabilidade,1386.12,Contabilidade - pagamento referente a Jun 2024
+05/12/2024  22:55:08,Alimentação,743.82,Alimentação - pagamento referente a Dec 2024
+21/03/2024  15:06:55,Aluguel,1085.62,Aluguel - pagamento referente a Mar 2024
+01/04/2025  07:14:46,Contabilidade,1613.45,Contabilidade - pagamento referente a Apr 2025
+28/01/2024  10:04:32,Alimentação,2259.27,Alimentação - pagamento referente a Jan 2024
+13/06/2025  12:52:42,Aluguel,2451.13,Aluguel - pagamento referente a Jun 2025
+15/02/2024  14:28:43,Segurança e Monitoramento,3122.24,Segurança e Monitoramento - pagamento referente a Feb 2024
+08/03/2024  23:26:31,Materiais de Escritório,244.13,Materiais de Escritório - pagamento referente a Mar 2024
+15/08/2024  14:43:33,Expedição,110.91,Expedição - pagamento referente a Aug 2024
+15/09/2025  20:03:23,Materiais de Escritório,413.97,Materiais de Escritório - pagamento referente a Sep 2025
+03/12/2024  21:08:20,Sistemas,2414.13,Sistemas - pagamento referente a Dec 2024
+01/03/2024  15:54:20,Internet,2500.53,Internet - pagamento referente a Mar 2024
