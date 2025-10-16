@@ -1,21 +1,543 @@
-﻿Data;Categoria;Receita;Canal de Venda
-2025-09-03 00:00:00;E-commerce;11389;Site Próprio
-2025-09-07 00:00:00;E-commerce;21951;Mercado Livre
-2025-09-03 00:00:00;E-commerce;39885;Mercado Livre
-2025-09-29 00:00:00;E-commerce;38424;Loja Física
-2025-09-09 00:00:00;Parcerias;32833;Site Próprio
-2025-09-03 00:00:00;Vendas Diretas;11308;Loja Física
-2025-09-25 00:00:00;E-commerce;18465;Shopee
-2025-09-27 00:00:00;Vendas Diretas;28876;Loja Física
-2025-09-14 00:00:00;Serviços;13900;Shopee
-2025-09-17 00:00:00;Parcerias;15456;Site Próprio
-2025-09-19 00:00:00;Vendas Diretas;20922;Mercado Livre
-2025-09-21 00:00:00;Parcerias;17388;Loja Física
-2025-09-09 00:00:00;E-commerce;38628;Mercado Livre
-2025-09-04 00:00:00;Parcerias;8574;Shopee
-2025-09-18 00:00:00;Parcerias;39203;Shopee
-2025-09-08 00:00:00;Serviços;19071;Site Próprio
-2025-09-14 00:00:00;E-commerce;24733;Shopee
-2025-09-12 00:00:00;Parcerias;36353;Mercado Livre
-2025-09-02 00:00:00;E-commerce;33192;Loja Física
-2025-09-11 00:00:00;E-commerce;33136;Mercado Livre
+?Data,Categoria,Receita,Canal de Venda
+04/02/2025  15:47:38,Roupas,301.73,Parcerias
+09/03/2024  13:07:07,Calçados,425.21,Marketplace
+14/02/2025  08:14:59,Acessórios,341.56,Loja Virtual
+11/04/2024  14:09:00,Beleza,264.41,Loja Virtual
+23/10/2024  08:17:40,Produtos Eletrônicos,54.06,Parcerias
+02/03/2024  17:58:33,Produtos Eletrônicos,5.0,Loja Virtual
+08/08/2024  20:22:30,Casa & Cozinha,377.73,Parcerias
+15/08/2025  05:07:48,Esportes,403.18,Loja Virtual
+06/09/2025  21:04:04,Roupas,222.54,Loja Virtual
+09/08/2025  10:12:20,Roupas,291.27,Loja Virtual
+26/01/2024  11:41:27,Acessórios,286.29,Loja Virtual
+04/08/2024  05:29:20,Beleza,487.35,Marketplace
+18/04/2025  17:36:12,Calçados,5.0,Marketplace
+01/03/2024  09:01:41,Esportes,129.2,Parcerias
+13/08/2025  06:09:34,Produtos Eletrônicos,342.05,Parcerias
+15/10/2024  20:45:03,Roupas,144.82,Marketplace
+13/07/2025  20:09:25,Roupas,5.0,Marketplace
+12/04/2024  06:47:05,Acessórios,5.0,Loja Virtual
+08/09/2025  18:22:47,Calçados,575.93,Parcerias
+31/03/2024  12:06:37,Esportes,214.89,Parcerias
+02/06/2024  12:49:24,Beleza,348.24,Marketplace
+18/03/2025  14:07:47,Roupas,356.67,Parcerias
+13/05/2024  01:59:07,Roupas,138.89,Loja Virtual
+12/02/2025  22:55:36,Acessórios,334.31,Marketplace
+19/08/2025  11:32:57,Esportes,286.25,Marketplace
+07/01/2024  12:39:03,Acessórios,179.62,Loja Virtual
+12/05/2024  16:54:55,Casa & Cozinha,5.0,Marketplace
+07/04/2025  18:19:58,Casa & Cozinha,247.78,Parcerias
+07/01/2024  17:12:40,Produtos Eletrônicos,64.66,Marketplace
+24/06/2024  17:36:02,Esportes,513.66,Marketplace
+02/08/2024  20:40:00,Acessórios,215.44,Marketplace
+18/07/2024  23:07:54,Casa & Cozinha,168.06,Marketplace
+13/12/2024  18:41:26,Calçados,259.04,Loja Virtual
+14/11/2024  04:18:19,Calçados,354.45,Parcerias
+16/09/2025  03:20:46,Esportes,561.76,Loja Virtual
+25/09/2025  03:14:40,Beleza,175.46,Loja Virtual
+15/07/2025  00:47:43,Produtos Eletrônicos,288.32,Loja Virtual
+07/03/2024  01:51:31,Calçados,441.06,Marketplace
+25/12/2024  20:20:32,Casa & Cozinha,240.38,Parcerias
+29/06/2025  05:42:24,Casa & Cozinha,515.09,Loja Virtual
+31/07/2025  00:55:08,Esportes,298.58,Loja Virtual
+14/10/2024  21:42:03,Produtos Eletrônicos,10.94,Marketplace
+16/09/2024  04:47:55,Casa & Cozinha,177.71,Loja Virtual
+11/08/2024  06:53:35,Beleza,461.75,Parcerias
+21/07/2024  15:38:14,Calçados,5.0,Loja Virtual
+24/03/2024  09:17:20,Esportes,449.31,Loja Virtual
+16/09/2024  16:35:54,Beleza,249.94,Parcerias
+17/07/2024  18:40:35,Beleza,615.92,Loja Virtual
+10/12/2024  14:10:59,Esportes,178.67,Marketplace
+11/02/2024  21:52:46,Beleza,128.42,Parcerias
+09/03/2025  10:51:55,Calçados,493.64,Parcerias
+19/08/2025  15:00:22,Beleza,102.39,Marketplace
+16/07/2025  12:10:19,Esportes,95.08,Parcerias
+03/01/2024  06:38:00,Esportes,167.4,Loja Virtual
+05/09/2025  22:57:48,Acessórios,201.46,Parcerias
+30/07/2024  07:21:15,Esportes,126.47,Loja Virtual
+30/04/2024  21:22:56,Roupas,231.27,Loja Virtual
+28/04/2025  08:09:45,Roupas,253.52,Parcerias
+12/11/2024  15:42:47,Casa & Cozinha,300.51,Marketplace
+13/12/2024  07:54:25,Calçados,213.37,Loja Virtual
+16/12/2024  07:24:58,Casa & Cozinha,184.6,Marketplace
+17/01/2025  09:03:13,Acessórios,5.0,Marketplace
+01/03/2024  14:18:08,Esportes,204.09,Loja Virtual
+23/09/2025  19:19:21,Calçados,291.52,Loja Virtual
+03/03/2024  18:57:41,Calçados,158.89,Parcerias
+31/07/2025  05:13:06,Produtos Eletrônicos,140.36,Loja Virtual
+12/06/2025  19:58:20,Casa & Cozinha,232.51,Loja Virtual
+13/03/2025  14:13:29,Casa & Cozinha,219.66,Loja Virtual
+24/12/2024  13:01:20,Casa & Cozinha,5.0,Marketplace
+15/02/2025  12:12:13,Esportes,243.0,Loja Virtual
+21/03/2024  00:04:30,Produtos Eletrônicos,171.51,Loja Virtual
+17/07/2024  18:45:22,Acessórios,10.64,Loja Virtual
+24/10/2024  11:33:00,Beleza,234.51,Loja Virtual
+14/08/2024  14:20:15,Beleza,107.56,Loja Virtual
+13/03/2024  09:38:13,Casa & Cozinha,447.09,Marketplace
+16/01/2025  20:11:21,Casa & Cozinha,512.4,Loja Virtual
+06/03/2024  10:27:50,Acessórios,268.35,Loja Virtual
+07/09/2024  17:50:31,Casa & Cozinha,322.33,Loja Virtual
+11/04/2025  11:39:34,Beleza,5.0,Marketplace
+21/04/2024  09:45:38,Roupas,23.96,Parcerias
+17/10/2024  00:38:17,Produtos Eletrônicos,5.0,Parcerias
+09/02/2024  16:46:00,Calçados,416.67,Marketplace
+16/04/2024  23:19:54,Beleza,553.28,Marketplace
+24/03/2025  23:22:33,Casa & Cozinha,540.52,Marketplace
+17/01/2024  09:45:14,Calçados,41.59,Marketplace
+09/01/2024  02:36:36,Produtos Eletrônicos,243.71,Parcerias
+21/08/2025  09:20:36,Esportes,5.0,Parcerias
+17/01/2024  23:38:41,Casa & Cozinha,5.0,Loja Virtual
+20/07/2025  22:11:30,Roupas,403.77,Parcerias
+16/04/2024  03:02:52,Produtos Eletrônicos,301.55,Parcerias
+12/04/2024  15:37:00,Calçados,265.5,Marketplace
+13/06/2025  14:23:21,Roupas,335.87,Parcerias
+24/05/2025  01:34:01,Produtos Eletrônicos,187.94,Loja Virtual
+26/05/2025  21:45:48,Esportes,486.38,Parcerias
+07/06/2024  10:56:48,Produtos Eletrônicos,193.37,Marketplace
+12/05/2024  22:33:24,Casa & Cozinha,590.5,Marketplace
+02/06/2024  04:28:11,Roupas,167.7,Marketplace
+16/01/2024  18:55:54,Produtos Eletrônicos,788.61,Loja Virtual
+27/10/2024  16:09:46,Roupas,540.19,Marketplace
+05/09/2024  00:10:33,Beleza,339.89,Marketplace
+24/01/2024  11:08:44,Beleza,178.07,Marketplace
+22/06/2024  02:04:16,Casa & Cozinha,5.0,Marketplace
+27/02/2024  03:44:31,Beleza,203.9,Loja Virtual
+03/08/2025  11:22:21,Produtos Eletrônicos,205.7,Loja Virtual
+14/06/2024  22:27:35,Acessórios,178.39,Marketplace
+03/02/2024  20:01:39,Calçados,331.72,Marketplace
+26/04/2024  23:21:28,Calçados,218.95,Parcerias
+31/08/2025  00:07:03,Esportes,410.43,Loja Virtual
+01/09/2025  00:01:18,Produtos Eletrônicos,128.47,Marketplace
+13/12/2024  09:00:34,Esportes,486.13,Loja Virtual
+10/09/2024  16:43:13,Esportes,474.37,Parcerias
+23/09/2025  15:55:51,Calçados,609.75,Parcerias
+25/04/2025  05:54:31,Esportes,111.55,Marketplace
+20/01/2025  08:35:17,Produtos Eletrônicos,296.56,Parcerias
+01/02/2025  04:56:57,Calçados,150.61,Marketplace
+10/05/2025  10:08:28,Esportes,457.22,Marketplace
+17/01/2025  09:41:19,Roupas,314.16,Parcerias
+29/06/2024  19:44:53,Esportes,327.8,Marketplace
+15/11/2024  02:22:43,Beleza,427.81,Marketplace
+05/08/2025  15:04:59,Produtos Eletrônicos,441.34,Marketplace
+09/08/2024  14:40:47,Casa & Cozinha,252.5,Parcerias
+07/09/2025  09:27:39,Casa & Cozinha,311.54,Loja Virtual
+03/07/2024  20:27:56,Roupas,445.68,Marketplace
+21/03/2025  19:14:53,Esportes,311.52,Parcerias
+04/03/2024  17:17:45,Casa & Cozinha,423.83,Parcerias
+12/03/2025  17:14:44,Casa & Cozinha,82.62,Marketplace
+07/01/2025  23:53:58,Produtos Eletrônicos,98.65,Marketplace
+09/02/2025  07:37:43,Esportes,202.81,Loja Virtual
+03/04/2025  02:45:38,Beleza,295.15,Loja Virtual
+24/06/2025  04:13:19,Esportes,231.63,Marketplace
+04/09/2025  18:00:16,Casa & Cozinha,479.21,Parcerias
+31/05/2024  18:31:23,Beleza,144.13,Loja Virtual
+05/03/2025  21:14:49,Produtos Eletrônicos,463.03,Marketplace
+21/07/2025  09:13:27,Roupas,170.56,Loja Virtual
+26/07/2024  10:32:45,Esportes,516.11,Parcerias
+19/06/2025  04:41:25,Casa & Cozinha,102.65,Marketplace
+11/02/2025  13:12:13,Produtos Eletrônicos,292.55,Parcerias
+08/01/2025  22:45:29,Acessórios,5.0,Marketplace
+15/07/2025  11:47:51,Calçados,363.62,Loja Virtual
+11/09/2024  04:51:40,Produtos Eletrônicos,317.71,Marketplace
+25/04/2025  05:10:20,Produtos Eletrônicos,314.42,Marketplace
+26/05/2025  09:49:43,Beleza,497.53,Marketplace
+06/01/2024  04:43:29,Produtos Eletrônicos,319.96,Parcerias
+16/03/2025  11:12:40,Esportes,505.08,Parcerias
+10/03/2024  05:50:13,Beleza,383.73,Loja Virtual
+08/12/2024  05:29:32,Beleza,5.0,Marketplace
+13/06/2025  04:30:06,Casa & Cozinha,61.49,Parcerias
+06/03/2025  12:20:00,Casa & Cozinha,302.96,Loja Virtual
+23/07/2025  03:44:48,Produtos Eletrônicos,5.0,Marketplace
+28/06/2025  13:23:41,Roupas,583.81,Marketplace
+13/01/2024  07:13:39,Casa & Cozinha,433.08,Marketplace
+06/06/2025  14:01:44,Acessórios,5.0,Loja Virtual
+15/02/2024  13:23:11,Casa & Cozinha,143.76,Parcerias
+16/01/2025  05:11:04,Esportes,83.61,Loja Virtual
+10/01/2025  20:28:07,Esportes,5.0,Marketplace
+15/09/2024  06:59:21,Beleza,289.23,Parcerias
+13/12/2024  17:32:55,Acessórios,350.05,Marketplace
+28/06/2024  23:15:52,Produtos Eletrônicos,264.54,Marketplace
+14/05/2024  13:09:01,Roupas,314.32,Loja Virtual
+20/09/2025  10:34:40,Esportes,191.15,Parcerias
+11/08/2025  02:31:25,Casa & Cozinha,245.54,Marketplace
+24/02/2024  10:00:09,Calçados,142.18,Marketplace
+30/05/2024  00:51:31,Casa & Cozinha,192.29,Parcerias
+26/06/2025  09:09:02,Calçados,171.39,Loja Virtual
+28/10/2024  10:57:45,Acessórios,276.21,Parcerias
+21/06/2025  12:18:43,Casa & Cozinha,278.61,Loja Virtual
+14/03/2024  14:27:38,Beleza,269.61,Loja Virtual
+03/09/2024  00:19:44,Acessórios,301.6,Marketplace
+28/01/2024  13:02:57,Beleza,83.39,Parcerias
+17/01/2024  04:01:37,Esportes,286.77,Loja Virtual
+05/08/2025  03:33:10,Beleza,353.39,Marketplace
+01/03/2024  22:21:13,Calçados,292.94,Parcerias
+29/09/2024  11:36:41,Acessórios,53.54,Marketplace
+05/11/2024  21:35:54,Esportes,143.57,Loja Virtual
+22/11/2024  12:53:29,Beleza,335.17,Marketplace
+08/07/2024  14:46:56,Calçados,5.0,Loja Virtual
+12/04/2024  17:16:42,Calçados,5.0,Loja Virtual
+08/07/2024  18:52:52,Acessórios,175.54,Parcerias
+16/05/2025  06:38:09,Casa & Cozinha,286.5,Loja Virtual
+15/01/2024  04:21:18,Roupas,233.88,Parcerias
+14/11/2024  02:21:24,Beleza,519.25,Marketplace
+31/05/2025  14:59:42,Casa & Cozinha,115.98,Loja Virtual
+14/03/2025  11:42:09,Casa & Cozinha,495.84,Parcerias
+21/01/2024  12:52:24,Acessórios,158.78,Marketplace
+04/05/2024  15:01:53,Casa & Cozinha,78.65,Loja Virtual
+20/02/2024  03:05:51,Esportes,386.27,Marketplace
+04/08/2024  07:07:56,Esportes,73.79,Loja Virtual
+06/12/2024  18:40:30,Beleza,314.59,Marketplace
+11/01/2024  13:57:47,Casa & Cozinha,310.22,Marketplace
+21/02/2024  14:32:37,Esportes,82.28,Marketplace
+16/04/2025  11:21:51,Calçados,245.54,Loja Virtual
+06/01/2024  23:35:38,Esportes,96.0,Marketplace
+10/11/2024  04:51:22,Calçados,220.59,Loja Virtual
+10/12/2024  02:57:01,Acessórios,74.65,Parcerias
+27/03/2024  02:28:10,Produtos Eletrônicos,399.0,Parcerias
+06/09/2025  18:08:52,Esportes,521.32,Marketplace
+23/05/2024  01:44:13,Casa & Cozinha,489.45,Marketplace
+27/02/2025  12:01:28,Esportes,213.49,Parcerias
+13/12/2024  19:54:07,Produtos Eletrônicos,207.31,Loja Virtual
+03/02/2024  23:42:37,Casa & Cozinha,82.55,Marketplace
+11/06/2025  02:20:59,Roupas,5.0,Marketplace
+17/05/2025  01:12:05,Roupas,325.95,Parcerias
+31/01/2024  04:36:40,Calçados,140.09,Marketplace
+04/01/2024  03:04:23,Casa & Cozinha,369.01,Loja Virtual
+08/07/2024  14:20:47,Produtos Eletrônicos,5.0,Parcerias
+17/08/2025  13:41:50,Calçados,112.22,Parcerias
+19/05/2024  15:44:21,Esportes,182.75,Marketplace
+07/02/2024  06:43:36,Produtos Eletrônicos,147.36,Loja Virtual
+05/06/2024  19:25:30,Beleza,242.49,Marketplace
+24/08/2025  19:18:17,Casa & Cozinha,288.97,Loja Virtual
+16/05/2024  05:52:15,Esportes,290.88,Parcerias
+07/05/2024  03:04:00,Acessórios,93.25,Parcerias
+17/11/2024  11:49:30,Beleza,127.18,Loja Virtual
+23/08/2024  08:39:24,Beleza,309.63,Parcerias
+13/07/2024  20:05:04,Acessórios,428.59,Parcerias
+28/10/2024  17:17:54,Acessórios,285.55,Parcerias
+25/03/2025  16:16:04,Esportes,424.44,Loja Virtual
+17/06/2024  07:41:22,Calçados,459.74,Loja Virtual
+14/08/2024  03:59:45,Esportes,5.0,Parcerias
+26/04/2025  06:09:00,Roupas,93.6,Marketplace
+30/05/2025  16:36:36,Beleza,209.5,Parcerias
+27/10/2024  00:55:45,Calçados,19.33,Parcerias
+02/08/2025  06:37:02,Acessórios,328.66,Marketplace
+28/04/2025  23:52:56,Esportes,510.7,Loja Virtual
+18/08/2025  15:23:09,Roupas,422.44,Parcerias
+12/06/2024  02:26:38,Beleza,300.29,Parcerias
+20/04/2025  18:05:20,Acessórios,382.94,Loja Virtual
+26/03/2024  10:57:14,Casa & Cozinha,565.62,Marketplace
+03/10/2024  18:59:29,Produtos Eletrônicos,57.09,Marketplace
+24/09/2024  21:17:33,Roupas,239.22,Parcerias
+01/07/2024  10:38:50,Roupas,354.43,Loja Virtual
+04/07/2024  02:26:26,Casa & Cozinha,335.09,Marketplace
+22/05/2025  05:37:33,Acessórios,241.02,Marketplace
+26/05/2025  14:07:42,Casa & Cozinha,484.34,Marketplace
+11/10/2024  18:40:01,Esportes,104.35,Marketplace
+25/08/2024  02:45:44,Roupas,823.68,Marketplace
+20/03/2024  01:25:19,Beleza,378.1,Loja Virtual
+04/05/2024  23:37:43,Casa & Cozinha,335.1,Parcerias
+06/11/2024  12:43:33,Esportes,704.49,Marketplace
+10/06/2024  07:01:59,Produtos Eletrônicos,581.08,Marketplace
+06/04/2024  04:49:06,Produtos Eletrônicos,316.84,Loja Virtual
+08/06/2024  02:37:00,Acessórios,5.0,Loja Virtual
+12/11/2024  10:32:52,Produtos Eletrônicos,338.84,Parcerias
+09/06/2025  11:40:29,Calçados,388.57,Marketplace
+24/11/2024  13:38:25,Casa & Cozinha,462.79,Marketplace
+06/04/2025  12:12:16,Esportes,305.47,Parcerias
+01/04/2024  03:11:32,Beleza,732.34,Parcerias
+18/04/2024  14:56:33,Acessórios,155.78,Loja Virtual
+04/07/2024  16:04:15,Acessórios,445.06,Loja Virtual
+28/07/2024  11:34:45,Produtos Eletrônicos,5.0,Parcerias
+24/08/2024  15:18:08,Acessórios,103.37,Parcerias
+14/07/2025  21:57:11,Acessórios,360.63,Parcerias
+20/03/2024  10:37:24,Acessórios,544.53,Parcerias
+17/01/2025  09:20:49,Casa & Cozinha,674.95,Loja Virtual
+21/11/2024  03:38:51,Esportes,279.1,Loja Virtual
+04/08/2025  20:18:28,Produtos Eletrônicos,542.44,Loja Virtual
+09/05/2024  19:43:28,Esportes,9.57,Parcerias
+15/12/2024  14:15:43,Casa & Cozinha,592.41,Loja Virtual
+07/01/2025  18:51:40,Casa & Cozinha,430.8,Loja Virtual
+11/04/2025  09:06:58,Beleza,270.69,Marketplace
+19/07/2025  11:44:43,Casa & Cozinha,351.25,Parcerias
+28/02/2025  23:13:24,Produtos Eletrônicos,52.01,Loja Virtual
+20/11/2024  12:58:04,Beleza,470.26,Marketplace
+09/04/2025  00:31:14,Esportes,450.36,Parcerias
+10/05/2025  20:27:25,Calçados,5.0,Loja Virtual
+15/06/2025  09:57:53,Esportes,572.96,Parcerias
+25/02/2024  05:38:24,Acessórios,493.59,Loja Virtual
+30/06/2024  01:15:31,Produtos Eletrônicos,8.1,Parcerias
+27/10/2024  00:19:17,Casa & Cozinha,45.19,Loja Virtual
+14/06/2025  01:12:13,Roupas,185.59,Parcerias
+14/03/2024  06:36:22,Roupas,106.23,Parcerias
+18/05/2024  23:31:08,Acessórios,5.0,Parcerias
+07/12/2024  06:07:36,Roupas,349.24,Marketplace
+15/11/2024  00:31:41,Beleza,5.0,Loja Virtual
+06/11/2024  14:00:42,Acessórios,418.15,Marketplace
+01/09/2025  16:51:06,Calçados,5.0,Marketplace
+15/06/2024  03:57:39,Roupas,222.12,Loja Virtual
+01/11/2024  15:10:22,Produtos Eletrônicos,128.53,Loja Virtual
+17/05/2025  12:48:34,Beleza,144.34,Marketplace
+27/02/2024  11:01:19,Roupas,106.42,Parcerias
+25/02/2025  04:13:19,Acessórios,303.36,Marketplace
+09/08/2024  15:09:31,Esportes,338.26,Marketplace
+06/03/2025  12:52:56,Casa & Cozinha,205.46,Marketplace
+25/06/2024  06:34:38,Esportes,153.29,Loja Virtual
+02/09/2025  15:20:22,Produtos Eletrônicos,73.85,Loja Virtual
+22/06/2024  21:47:01,Casa & Cozinha,127.57,Loja Virtual
+11/01/2025  20:43:34,Esportes,86.92,Marketplace
+02/01/2025  12:40:06,Roupas,5.0,Parcerias
+16/05/2024  15:18:18,Beleza,231.32,Marketplace
+15/06/2025  17:56:23,Acessórios,366.51,Marketplace
+23/04/2024  10:57:33,Esportes,167.28,Parcerias
+09/06/2024  23:02:06,Produtos Eletrônicos,98.84,Loja Virtual
+21/10/2024  14:31:11,Calçados,5.0,Parcerias
+07/12/2024  20:01:39,Acessórios,260.24,Marketplace
+28/04/2024  19:30:07,Roupas,627.54,Parcerias
+10/06/2025  20:46:11,Calçados,90.01,Loja Virtual
+18/12/2024  13:22:48,Acessórios,352.3,Loja Virtual
+09/04/2025  05:13:35,Esportes,500.57,Parcerias
+06/05/2024  16:47:44,Casa & Cozinha,183.43,Marketplace
+03/07/2024  11:35:32,Produtos Eletrônicos,392.54,Loja Virtual
+20/08/2024  06:45:11,Produtos Eletrônicos,370.65,Loja Virtual
+20/10/2024  23:01:21,Esportes,330.1,Parcerias
+08/02/2025  21:13:12,Roupas,225.25,Marketplace
+16/01/2025  09:36:00,Casa & Cozinha,464.86,Loja Virtual
+11/05/2025  07:23:09,Acessórios,14.77,Loja Virtual
+01/01/2025  08:48:26,Casa & Cozinha,190.5,Loja Virtual
+29/06/2025  05:23:47,Produtos Eletrônicos,5.0,Loja Virtual
+17/08/2025  12:10:53,Acessórios,46.06,Parcerias
+13/05/2024  12:44:51,Produtos Eletrônicos,5.0,Loja Virtual
+08/01/2025  10:17:43,Casa & Cozinha,288.81,Parcerias
+06/09/2024  06:28:55,Produtos Eletrônicos,667.21,Marketplace
+31/08/2025  04:55:08,Casa & Cozinha,166.98,Loja Virtual
+11/09/2024  20:15:20,Calçados,602.24,Parcerias
+15/05/2024  01:58:58,Roupas,295.05,Marketplace
+22/07/2025  18:55:55,Produtos Eletrônicos,128.35,Loja Virtual
+18/01/2025  02:51:03,Calçados,378.11,Parcerias
+30/03/2025  01:47:57,Esportes,370.62,Loja Virtual
+06/07/2025  10:48:14,Acessórios,653.06,Loja Virtual
+06/01/2025  22:59:41,Esportes,227.37,Marketplace
+21/04/2025  12:20:39,Calçados,658.42,Parcerias
+19/01/2025  18:30:29,Produtos Eletrônicos,488.92,Parcerias
+29/12/2024  19:17:20,Esportes,637.03,Loja Virtual
+27/04/2025  01:15:35,Acessórios,139.42,Parcerias
+08/03/2025  14:53:07,Produtos Eletrônicos,135.65,Parcerias
+23/06/2025  17:54:14,Calçados,450.33,Marketplace
+21/05/2024  04:19:40,Roupas,108.11,Parcerias
+11/07/2024  08:12:53,Casa & Cozinha,706.33,Loja Virtual
+07/01/2025  03:48:14,Acessórios,36.75,Loja Virtual
+14/03/2025  20:01:34,Acessórios,186.98,Marketplace
+05/03/2025  20:02:53,Esportes,747.04,Marketplace
+30/01/2025  00:53:47,Esportes,319.34,Parcerias
+07/06/2024  10:27:58,Produtos Eletrônicos,397.93,Marketplace
+21/04/2025  17:18:48,Casa & Cozinha,87.4,Parcerias
+01/09/2024  10:26:11,Acessórios,5.0,Loja Virtual
+11/08/2025  12:11:20,Casa & Cozinha,19.77,Marketplace
+24/07/2025  06:14:37,Acessórios,522.51,Marketplace
+08/07/2024  11:06:04,Casa & Cozinha,149.72,Loja Virtual
+03/01/2025  08:35:34,Esportes,243.54,Parcerias
+30/05/2024  20:30:24,Calçados,613.61,Parcerias
+19/08/2024  12:55:14,Beleza,404.38,Marketplace
+26/10/2024  00:13:40,Roupas,683.01,Loja Virtual
+28/09/2024  04:10:33,Beleza,69.19,Loja Virtual
+29/05/2024  03:33:06,Acessórios,596.99,Marketplace
+20/05/2024  03:27:09,Beleza,170.86,Marketplace
+09/03/2025  01:25:18,Calçados,520.44,Parcerias
+29/09/2024  13:31:10,Beleza,47.05,Parcerias
+07/06/2025  22:12:36,Acessórios,138.78,Parcerias
+15/03/2025  21:06:42,Esportes,461.47,Loja Virtual
+18/02/2025  14:41:42,Acessórios,398.84,Parcerias
+04/05/2024  18:24:00,Casa & Cozinha,600.99,Loja Virtual
+30/09/2025  02:44:19,Acessórios,159.04,Loja Virtual
+14/11/2024  01:19:27,Roupas,308.54,Parcerias
+16/07/2025  09:48:31,Roupas,40.07,Parcerias
+05/06/2025  13:20:29,Acessórios,5.0,Parcerias
+04/05/2024  10:38:06,Esportes,481.81,Loja Virtual
+01/04/2025  19:30:53,Calçados,98.06,Loja Virtual
+12/02/2025  15:16:32,Produtos Eletrônicos,406.57,Loja Virtual
+06/05/2024  20:09:22,Beleza,290.47,Parcerias
+12/04/2025  12:08:58,Calçados,54.93,Marketplace
+23/02/2024  21:27:40,Roupas,29.54,Parcerias
+22/08/2025  22:44:26,Casa & Cozinha,229.13,Marketplace
+05/03/2024  10:07:00,Roupas,226.75,Parcerias
+11/11/2024  04:36:32,Calçados,5.0,Parcerias
+06/04/2024  10:43:04,Acessórios,370.42,Marketplace
+23/10/2024  23:11:55,Esportes,108.2,Marketplace
+08/07/2024  13:43:37,Beleza,337.46,Marketplace
+03/05/2025  15:01:31,Produtos Eletrônicos,55.98,Loja Virtual
+16/06/2024  22:47:52,Roupas,548.99,Marketplace
+26/01/2024  15:02:03,Roupas,80.31,Marketplace
+07/02/2024  23:12:26,Beleza,294.11,Parcerias
+18/01/2024  02:31:06,Calçados,122.89,Loja Virtual
+01/07/2024  05:23:02,Roupas,183.84,Marketplace
+30/06/2024  02:56:35,Calçados,211.15,Marketplace
+27/06/2025  20:22:13,Calçados,528.69,Loja Virtual
+19/03/2025  16:33:03,Esportes,66.74,Parcerias
+03/09/2024  03:27:44,Produtos Eletrônicos,13.63,Loja Virtual
+12/04/2024  14:00:52,Roupas,77.92,Loja Virtual
+28/02/2024  15:07:22,Esportes,495.8,Loja Virtual
+28/10/2024  20:48:34,Esportes,5.0,Marketplace
+29/09/2025  03:32:34,Produtos Eletrônicos,296.37,Parcerias
+18/02/2025  11:04:20,Esportes,324.01,Loja Virtual
+04/05/2025  16:05:42,Beleza,346.18,Loja Virtual
+20/07/2024  15:42:33,Casa & Cozinha,392.46,Loja Virtual
+28/05/2025  13:47:32,Casa & Cozinha,108.04,Marketplace
+14/02/2024  16:48:21,Produtos Eletrônicos,288.82,Marketplace
+30/07/2025  12:29:55,Calçados,880.41,Loja Virtual
+09/07/2025  09:48:10,Produtos Eletrônicos,319.51,Marketplace
+29/08/2024  09:42:31,Calçados,323.52,Parcerias
+21/11/2024  12:51:51,Produtos Eletrônicos,364.75,Marketplace
+19/02/2025  03:05:11,Casa & Cozinha,87.8,Parcerias
+04/10/2024  10:29:36,Esportes,194.04,Parcerias
+05/06/2025  15:20:39,Esportes,293.71,Parcerias
+27/01/2024  22:29:30,Roupas,5.0,Parcerias
+30/10/2024  02:11:46,Produtos Eletrônicos,351.19,Marketplace
+02/08/2025  16:03:46,Beleza,88.12,Parcerias
+01/04/2024  07:36:47,Beleza,347.21,Loja Virtual
+13/09/2024  00:18:07,Calçados,333.29,Loja Virtual
+24/07/2025  07:33:00,Beleza,29.55,Parcerias
+08/09/2024  02:09:25,Casa & Cozinha,293.32,Loja Virtual
+09/07/2025  04:56:34,Casa & Cozinha,312.22,Marketplace
+30/07/2024  18:01:06,Casa & Cozinha,93.96,Marketplace
+17/04/2024  23:40:01,Acessórios,361.31,Loja Virtual
+28/12/2024  05:49:49,Beleza,142.94,Loja Virtual
+02/09/2024  15:16:26,Roupas,470.16,Parcerias
+09/03/2024  18:26:18,Casa & Cozinha,211.06,Parcerias
+16/02/2024  23:48:39,Casa & Cozinha,188.44,Marketplace
+16/02/2024  10:07:50,Beleza,140.35,Loja Virtual
+18/11/2024  21:25:44,Acessórios,234.56,Loja Virtual
+07/01/2025  15:07:28,Produtos Eletrônicos,260.33,Loja Virtual
+29/08/2024  02:33:54,Beleza,295.8,Parcerias
+13/08/2025  17:01:40,Calçados,5.0,Parcerias
+26/01/2024  00:09:49,Esportes,226.65,Loja Virtual
+13/05/2025  06:22:34,Produtos Eletrônicos,127.14,Parcerias
+23/09/2024  11:33:38,Roupas,714.01,Loja Virtual
+05/11/2024  21:21:50,Produtos Eletrônicos,139.98,Marketplace
+23/03/2025  09:08:55,Roupas,316.52,Loja Virtual
+14/12/2024  00:48:18,Casa & Cozinha,5.0,Parcerias
+31/07/2024  22:16:16,Produtos Eletrônicos,99.51,Parcerias
+21/04/2025  10:47:25,Esportes,160.36,Loja Virtual
+21/07/2025  18:18:38,Calçados,508.13,Parcerias
+07/06/2024  17:52:46,Roupas,189.83,Parcerias
+31/03/2024  16:22:25,Produtos Eletrônicos,237.16,Marketplace
+09/05/2024  21:19:59,Calçados,103.39,Marketplace
+02/05/2024  20:41:57,Beleza,253.68,Parcerias
+06/09/2025  23:14:43,Beleza,94.53,Loja Virtual
+01/01/2024  07:18:10,Casa & Cozinha,138.52,Marketplace
+29/01/2025  01:20:50,Beleza,441.68,Marketplace
+13/02/2025  18:18:00,Casa & Cozinha,369.29,Loja Virtual
+08/03/2024  02:13:42,Roupas,300.45,Loja Virtual
+25/12/2024  14:41:11,Beleza,124.54,Marketplace
+31/01/2024  12:32:12,Roupas,5.0,Loja Virtual
+11/06/2024  11:38:41,Acessórios,232.15,Loja Virtual
+14/02/2024  13:22:22,Esportes,485.95,Parcerias
+15/03/2025  13:35:05,Esportes,436.63,Parcerias
+11/08/2025  12:48:40,Beleza,390.14,Loja Virtual
+22/06/2025  19:23:57,Calçados,223.99,Parcerias
+11/09/2024  04:02:20,Beleza,462.27,Parcerias
+08/04/2025  07:56:14,Calçados,150.49,Parcerias
+27/11/2024  15:02:16,Calçados,230.42,Marketplace
+23/07/2025  11:26:29,Calçados,578.12,Loja Virtual
+31/07/2025  02:36:16,Beleza,539.46,Loja Virtual
+16/01/2025  00:20:57,Casa & Cozinha,307.39,Loja Virtual
+09/10/2024  20:30:25,Produtos Eletrônicos,341.63,Parcerias
+13/08/2024  19:22:34,Calçados,279.62,Loja Virtual
+18/09/2024  05:13:55,Calçados,62.41,Parcerias
+21/12/2024  03:42:56,Beleza,413.1,Parcerias
+01/08/2025  01:41:53,Beleza,309.93,Marketplace
+06/10/2024  14:02:17,Casa & Cozinha,611.44,Marketplace
+10/09/2025  06:34:40,Produtos Eletrônicos,42.04,Marketplace
+16/08/2025  01:02:14,Esportes,436.49,Marketplace
+20/12/2024  19:32:05,Casa & Cozinha,149.64,Parcerias
+01/02/2025  17:38:54,Produtos Eletrônicos,182.18,Marketplace
+25/11/2024  03:24:08,Roupas,333.64,Marketplace
+05/08/2025  17:52:05,Esportes,290.95,Marketplace
+07/08/2024  00:27:04,Calçados,5.0,Parcerias
+11/07/2024  01:35:45,Acessórios,49.56,Marketplace
+06/02/2024  17:27:24,Roupas,346.78,Parcerias
+20/09/2024  13:55:00,Roupas,356.4,Parcerias
+06/04/2025  12:39:44,Produtos Eletrônicos,414.66,Marketplace
+31/08/2024  11:51:05,Beleza,286.94,Marketplace
+16/12/2024  22:58:12,Roupas,494.16,Marketplace
+23/11/2024  16:12:36,Esportes,83.59,Marketplace
+19/04/2024  13:17:19,Acessórios,515.16,Marketplace
+17/03/2024  12:59:12,Roupas,387.1,Marketplace
+15/04/2025  01:20:29,Beleza,315.82,Parcerias
+09/01/2024  02:33:24,Acessórios,152.56,Parcerias
+16/07/2025  04:17:21,Acessórios,634.69,Marketplace
+24/02/2025  16:07:10,Esportes,27.19,Marketplace
+22/02/2024  09:54:26,Acessórios,72.66,Marketplace
+07/05/2025  12:02:22,Produtos Eletrônicos,347.51,Loja Virtual
+13/03/2024  02:35:49,Roupas,156.7,Loja Virtual
+31/08/2024  05:56:19,Esportes,461.62,Marketplace
+21/02/2024  14:40:37,Produtos Eletrônicos,29.03,Marketplace
+24/05/2025  18:34:11,Beleza,56.39,Loja Virtual
+29/11/2024  05:19:19,Produtos Eletrônicos,291.56,Marketplace
+18/05/2025  15:39:24,Roupas,170.49,Loja Virtual
+19/06/2025  21:11:17,Beleza,367.18,Parcerias
+29/06/2025  13:29:46,Calçados,392.11,Loja Virtual
+21/03/2025  01:50:12,Acessórios,79.89,Marketplace
+22/04/2024  09:53:14,Casa & Cozinha,5.0,Parcerias
+22/01/2025  09:06:59,Esportes,122.34,Loja Virtual
+27/09/2025  22:25:05,Esportes,209.93,Loja Virtual
+10/03/2024  14:47:51,Calçados,401.58,Loja Virtual
+01/02/2025  00:14:20,Calçados,123.14,Marketplace
+08/11/2024  06:27:05,Beleza,5.0,Marketplace
+02/10/2024  11:01:39,Beleza,5.0,Marketplace
+31/01/2024  09:00:22,Esportes,364.63,Loja Virtual
+29/01/2025  07:47:12,Roupas,752.31,Parcerias
+06/04/2024  21:48:54,Produtos Eletrônicos,59.62,Parcerias
+05/03/2025  17:39:27,Esportes,145.09,Marketplace
+08/11/2024  19:11:49,Acessórios,526.91,Loja Virtual
+19/07/2024  11:53:52,Beleza,353.13,Loja Virtual
+07/01/2025  03:34:37,Acessórios,295.81,Parcerias
+04/09/2025  13:22:42,Calçados,441.56,Marketplace
+19/05/2024  10:29:45,Esportes,576.37,Marketplace
+31/12/2024  11:01:47,Casa & Cozinha,237.8,Parcerias
+05/07/2025  04:47:48,Calçados,25.3,Loja Virtual
+18/09/2025  12:33:42,Esportes,5.0,Loja Virtual
+17/01/2025  07:15:16,Esportes,274.62,Parcerias
+03/10/2024  13:53:54,Produtos Eletrônicos,640.65,Marketplace
+07/03/2024  21:54:56,Beleza,619.72,Loja Virtual
+01/02/2025  00:24:51,Calçados,163.77,Loja Virtual
+25/02/2024  14:35:24,Produtos Eletrônicos,356.96,Marketplace
+08/08/2025  07:03:41,Beleza,5.0,Parcerias
+27/07/2024  18:02:42,Beleza,428.74,Marketplace
+13/06/2025  04:46:33,Acessórios,325.93,Marketplace
+19/07/2024  15:40:56,Esportes,294.46,Marketplace
+21/09/2025  19:37:02,Beleza,30.9,Loja Virtual
+07/07/2025  15:52:12,Beleza,259.86,Loja Virtual
+20/07/2024  08:50:18,Roupas,287.04,Loja Virtual
+20/07/2025  13:05:43,Esportes,321.13,Parcerias
+14/07/2024  20:23:30,Roupas,29.27,Parcerias
+01/08/2025  16:48:18,Calçados,812.93,Marketplace
+27/03/2024  10:39:06,Casa & Cozinha,509.17,Loja Virtual
+03/07/2025  15:22:57,Beleza,267.34,Marketplace
+23/10/2024  16:26:11,Beleza,5.0,Parcerias
+21/01/2024  04:49:45,Acessórios,230.91,Parcerias
+26/12/2024  19:53:21,Esportes,336.95,Marketplace
+04/06/2025  02:05:01,Produtos Eletrônicos,81.01,Marketplace
+15/06/2024  22:19:23,Esportes,258.27,Parcerias
+05/11/2024  15:12:02,Acessórios,343.31,Loja Virtual
+24/08/2024  02:20:10,Casa & Cozinha,437.58,Loja Virtual
+12/03/2025  05:06:43,Acessórios,221.92,Parcerias
+26/05/2025  09:59:18,Produtos Eletrônicos,303.86,Loja Virtual
+15/08/2025  09:10:37,Acessórios,569.71,Loja Virtual
+04/01/2025  21:19:59,Casa & Cozinha,516.27,Marketplace
+15/12/2024  11:46:55,Acessórios,143.28,Marketplace
+15/05/2024  23:29:17,Produtos Eletrônicos,388.54,Marketplace
+28/04/2024  07:42:09,Roupas,5.0,Loja Virtual
+25/03/2025  16:59:21,Roupas,417.89,Marketplace
+14/04/2024  10:01:11,Roupas,207.56,Marketplace
+17/06/2025  23:40:56,Produtos Eletrônicos,451.89,Parcerias
+28/01/2025  03:46:56,Calçados,294.87,Parcerias
+17/09/2024  23:53:36,Esportes,44.85,Marketplace
+06/07/2025  16:00:05,Acessórios,322.62,Marketplace
+06/05/2024  04:52:47,Beleza,313.49,Marketplace
+03/01/2024  22:14:56,Acessórios,49.19,Parcerias
+25/03/2024  13:20:52,Roupas,72.15,Marketplace
+19/04/2024  16:44:21,Esportes,5.0,Parcerias
+13/11/2024  10:57:18,Esportes,5.0,Parcerias
+15/06/2025  23:15:43,Calçados,419.92,Parcerias
+21/04/2024  03:17:56,Beleza,466.54,Parcerias
