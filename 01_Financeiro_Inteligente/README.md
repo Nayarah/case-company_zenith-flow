@@ -23,6 +23,7 @@ O objetivo é automatizar o fechamento mensal de múltiplas filiais, consolidand
 | **ETL e Modelagem** | Excel Power Query (Linguagem M) | Extração dos arquivos via links públicos do GitHub, limpeza e modelagem de dados. |
 | **Automação** | VBA (Visual Basic for Applications) | Automação do fluxo de trabalho: Atualização das consultas, criação de PDF e distribuição por e-mail. |
 | **Orquestração** | Power Automate / Agendador de Tarefas | Possibilita execução automática em horários pré-definidos. |
+| **Visualização** | Powe BI | Visualização do relatório e criação de insights do negócio com medidas de time intelligence.
 | **Fonte de Dados** | GitHub | Repositório remoto para leitura via Web.Contents(), simulando um ambiente de produção com SharePoint ou DataLake. |
 
 ---
@@ -67,7 +68,7 @@ Os arquivos de entrada são fictícios e simulam um **data lake financeiro**, fr
 Nesta etapa temos a camada Bronze na consulta `_BZ_Financeiro_Consolidado` do arquivo mestre, que utiliza as funções abaixo para obtenção de arquivos CSV, faz a combinação destes arquivos, normaliza e cria uma chave match com os caminhos dos arquivos utilizando `Table.NestedJoin`, para enriquecer com as colunas tipo e filial obtendo esta informação de forma confiável da origem dos arquivos.
 
 ### 🔧**fnGetFolderContent**
-  * A função customizada: fnGetFolderContent foi Criada para possibiliar a obtenção automatica de qualquer arquivo inserido na pasta compartilhada do GitHub, staging area, por URL API REST via Web.Contents()
+  * A função customizada: fnGetFolderContent foi Criada para possibiliar a obtenção automática de qualquer arquivo inserido na pasta compartilhada do GitHub, staging area, por URL API REST via Web.Contents()
 
 
 >🔹 Código M da função na seção colapsável abaixo.
@@ -190,7 +191,7 @@ in
 
 <br>
 
-## **Transformação (T) e Enriqecimento:**
+## **Transformação (T) e Enriquecimento:**
 A consulta `SL_Financeiro` do arquivo mestre é a camada Silver deste projeto onde temos a consulta da camada bronze da etapa anterior e há a tipagem dos dados e o enriquecimento das colunas Saldo, Mês e Ano.
 
 A consulta `GL_Fato_Financeiro`do arquivo mestre é a camada Gold onde temos a tabela fato da etapa Silver resumida e a criação das Foreign Key para as dimensões originadas desta consulta e são elas `DimFilial`, `DimCategoria`, `DimTipo` e `Calendário` também contidas no arquivo mestre.
