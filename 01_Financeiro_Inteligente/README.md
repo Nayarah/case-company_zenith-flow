@@ -8,11 +8,13 @@ Este módulo demonstra a prova de conceito do ecossistema ZenithFlow, criando um
 
 - Transformação com Power Query (Linguagem M)
 
+- Modelagem dimensional e visualização em Power Pivot (com DAX)
+
 - Visualização em Power BI
 
 - Automação de relatórios via VBA e Power Automate
 
-O objetivo é automatizar o fechamento mensal de múltiplas filiais, consolidando receitas e despesas e gerando saldos e acumulados.
+O objetivo é automatizar o fechamento mensal de múltiplas filiais, consolidando receitas e despesas e gerando saldos, KPIs e relatórios dinâmicos — tudo dentro do próprio Excel.
 
 <br>
 
@@ -23,7 +25,7 @@ O objetivo é automatizar o fechamento mensal de múltiplas filiais, consolidand
 | **ETL e Modelagem** | Excel Power Query (Linguagem M) | Extração dos arquivos via links públicos do GitHub, limpeza e modelagem de dados. |
 | **Automação** | VBA (Visual Basic for Applications) | Automação do fluxo de trabalho: Atualização das consultas, criação de PDF e distribuição por e-mail. |
 | **Orquestração** | Power Automate / Agendador de Tarefas | Possibilita execução automática em horários pré-definidos. |
-| **Visualização** | Powe BI | Visualização do relatório e criação de insights do negócio com medidas de time intelligence.
+| **Visualização** | Excel (Tabelas Dinâmicas + Dashboards) | Dashboards interativos criados com base no modelo de dados DAX..
 | **Fonte de Dados** | GitHub | Repositório remoto para leitura via Web.Contents(), simulando um ambiente de produção com SharePoint ou DataLake. |
 
 ---
@@ -40,6 +42,16 @@ Os arquivos de entrada são fictícios e simulam um **data lake financeiro**, fr
 * **`Dados/01_Financeiro_Mestre_ETL.xlsx`:** Como o nome sugere, um arquivo mestre que contém todo o código M e camadas deste pipeline. O star schema (modelo Fato/Dimensão) é implementado na camada GL dentro deste arquivo.As camadas estão melhor descritos abaixo. Esta centralização do código M visa a otimização da manutenção e auditoria do pipeline sendo uma fonte única do fluxo dos dados.
 
 ### Saída (Output)
+
+* **`Relatorios/DashboardExcel.xlsm`:**
+Relatório automatizado com:
+
+  -  Dashboards em tabelas dinâmicas conectadas ao modelo Power Pivot.
+  -  Cálculos DAX (KPIs, acumulados, time intelligence).
+  -  Automação VBA para atualização, validação e envio de  - relatório em PDF por e-mail.
+  -  `Relatorios_Gerados/Relatorio_Financeiro_YYYY_MM_DD.pdf`:
+Relatório consolidado gerado automaticamente via VBA.
+
 * **`Relatorios/01_Financeiro_Modelo_Dados.pbix`:** Contém a camada Gold conectada via Power Query para visualização do relatório e criação de insights do negócio.
 
 * **Relatório PDF:** Arquivo gerado automaticamente com o *snapshot* do Dashboard.
@@ -55,8 +67,13 @@ Os arquivos de entrada são fictícios e simulam um **data lake financeiro**, fr
 │   └── Links_Financeiro.xlsx
 │
 ├── Relatorios/
+│   ├── DashboardExcel.xlsm
 │   ├── 01_Financeiro_Modelo_Dados.xlsx
 │   └── Dashboard_Financeiro.pdf
+│
+├── Relatorios_Gerados/
+│   └── Relatorio_Financeiro_2025_11_04.pdf
+│
 └── README.md
 
 ```
@@ -192,27 +209,83 @@ in
 <br>
 
 ## **Transformação (T) e Enriquecimento:**
-A consulta `SL_Financeiro` do arquivo mestre é a camada Silver deste projeto onde temos a consulta da camada bronze da etapa anterior e há a tipagem dos dados e o enriquecimento das colunas Saldo, Mês e Ano.
+Camada Silver (`SL_Financeiro`) tipa e enriquece os dados com colunas de controle (Saldo, Mês, Ano).
+Camada Gold (`GL_Fato_Financeiro`) estrutura o modelo Star Schema, gerando:
 
-A consulta `GL_Fato_Financeiro`do arquivo mestre é a camada Gold onde temos a tabela fato da etapa Silver resumida e a criação das Foreign Key para as dimensões originadas desta consulta e são elas `DimFilial`, `DimCategoria`, `DimTipo` e `Calendário` também contidas no arquivo mestre.
+- `GL_Fato_Financeiro`
+
+- `DimFilial`
+
+- `DimCategoria`
+
+- `DimTipo`
+
+- `Calendario`
 
 
 ## **Carga (L):**
-Conexão direta do modelo de dados da etapa Gold com a tabela fato, dimensões e calendário no Power BI via Power Query.
+Carga (L)
 
+O modelo dimensional Gold é carregado no Power Pivot, conectando as Foreign Keys para formar um modelo analítico otimizado.
+A partir daí, o DAX entra em ação para criar KPIs e medidas dinâmicas, por exemplo:
+```dax
+M_LucroLiquido_PA
+=IF( 
+	HASONEVALUE(Calendario[Date]);
+	CALCULATE([M_LucroLiquido]; SAMEPERIODLASTYEAR('Calendario'[Date]));
+	BLANK()
+)
 
-
-
-##  💻 Automação VBA — Atualização e Distribuição
-
-Macro Run_Update() atualiza todas as consultas, gera PDF do Dashboard e prepara e-mail:
 ```
-Sub Run_Update()
-    ThisWorkbook.RefreshAll
-    Sheets("Dashboard").ExportAsFixedFormat Type:=xlTypePDF, Filename:=ThisWorkbook.Path & "\Relatorio_Financeiro.pdf"
-    ' Abre e-mail com PDF anexado
-End Sub
 
+## 📊 Dashboard em Excel com Power Pivot e DAX
+
+A modelagem Star Schema foi aproveitada dentro do próprio Excel, conectando o modelo Power Pivot a tabelas dinâmicas.
+Com isso, o Excel se transforma em um ambiente completo de BI corporativo.
+
+🔹 Recursos do Dashboard:
+
+- Modelagem Dimensional (Fato + Dimensões no Power Pivot)
+
+- Cálculos DAX com time intelligence e métricas acumuladas
+
+- Segmentações de Dados interativas e filtros dinâmicos
+
+- Automação VBA de fluxo completo (atualiza, valida, gera PDF e envia por e-mail)
+
+- Interface em múltiplas abas (Dashboard / Filiais / Controle)
+
+### 🧩 Vantagens do Power Pivot + DAX no Excel:
+
+|Vantagem|Descrição|
+|:--|:--|
+|💡 Integração total|Mesmos cálculos e motor DAX do Power BI.|
+|⚡ Performance|O modelo tabular é armazenado em memória e processado via VertiPaq.|
+|🔄 Automação|VBA orquestra a atualização, proteção e envio dos relatórios.|
+|🧱 Escalabilidade local|Ideal para relatórios internos e financeiros sem dependência do Power BI Service.|
+
+## 💻 Automação VBA — Atualização e Distribuição
+
+O módulo de automação (FluxoCompleto_Orquestrador) executa:
+
+1. Atualização de todas as consultas (ETL Power Query);
+
+2. Validação dos dados;
+
+3. Atualização dos dashboards;
+
+4. Exportação das abas Dashboard e Filiais para PDF;
+
+5. Envio automático do relatório via Outlook.
+
+```vba
+
+Public Sub FluxoCompleto_Orquestrador()
+    ThisWorkbook.RefreshAll
+    Call ValidarDados_LogErros
+    Call AtualizarDashboards
+    Call GerarRelatorio_SalvarPDF_Email
+End Sub
 ```
 
 
@@ -229,18 +302,30 @@ Este módulo foi projetado para simular um processo real de fechamento financeir
   - Execução de Macros (VBA)
 
 ### Instruções:
-1. **Abrir Arquivo:** Inicie a execução abrindo o arquivo 01_Financeiro_Modelo_Dados.pbix no Power BI Desktop. Este arquivo está configurado para conectar-se ao Financeiro_Mestre_ETL.xlsx, que contém todo o pipeline de dados.
+1. Abra o arquivo DashboardExcel.xlsm.
 
-2. **Atualizar:** Clique em Atualizar. O Power BI executará o pipeline completo de forma encadeada:
+2. Clique no botão Fluxo Completo da aba Controle.
 
-- BZ: Lê metadados e baixa CSVs.
+3. Aguarde a atualização e o envio automático do relatório PDF por e-mail.
 
-- SL: Limpa e enriquece.
+> (A rotina também pode ser agendada via Power Automate ou Agendador de Tarefas do Windows.)
 
-- GD: Cria as tabelas Fato e Dimensões.
+## ⚖️ Power Pivot vs Power BI — Quando usar cada um
+|Critério|Power Pivot (Excel)|Power BI Desktop / Service|
+|:---|:---|:---|
+|💰 Licenciamento|Incluso no Microsoft 365 (sem custo adicional)|Power BI Pro ou Premium por usuário|
+|🧩 Modelagem|Mesmo motor DAX e VertiPaq do Power BI|Idêntico, com recursos adicionais (RLS, aggregations, etc.)|
+|📊 Visualização|Tabelas Dinâmicas e gráficos nativos do Excel|Painéis interativos, mapas, drill-downs e custom visuals|
+|⚙️ Automação|Controlada via VBA, Power Automate ou Task Scheduler|Atualização e distribuição automática na nuvem|
+|🧱 Armazenamento|Local (modelo em cache dentro do Excel)|Cloud-based (Workspaces, Datasets, Gateways)Z
+|📤 Distribuição|Manual ou via e-mail automatizado|Compartilhamento e governança via Power BI Service|
+|🧮 Escalabilidade|Ideal para relatórios financeiros ou locais|Ideal para dashboards corporativos e colaboração|
+|🧰 Manutenção|Total controle pelo analista (VBA + Excel)|Governado por pipelines e Dataflows|
+|🚀 Cenário ideal|Pequenas equipes, análises financeiras, protótipos ágeis|Grandes times, governança centralizada e reporting em escala|
 
-Visualização: O Modelo Dimensional (Schema Estrela) estará pronto para uso.
-
+💡 Resumo:
+Use Power Pivot quando quiser agilidade, autonomia e automação local.
+Use Power BI quando precisar de colaboração, governança e escalabilidade em nuvem.
 
 
 ---
